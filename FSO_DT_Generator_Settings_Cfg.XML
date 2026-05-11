@@ -1,0 +1,3055 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<aa:Symbol GraphicVersion="415" Name="" Left="0" Top="0" Width="500" Height="500" LocalLeft="0" LocalTop="0" LocalWidth="500" LocalHeight="500" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="0" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="False" HasLineStyleData="False" HasTextStyleData="False" ElementStyleID="0" HasCustomProperties="True" LastUsedId="215" Description="" Smoothing="True" AnchorOffsetRatioX="0" AnchorOffsetRatioY="0" ImageFillStyle="Normal" Alignment="Centers" RefreshRate="0" FaceplateMode="False" SizeMode="Auto" ContentType="" ShowConfiguredReferences="False" xmlns:aa="http://www.wonderware.com/ArchestrA">
+  <CustomProperties>
+    <CustomProperty Name="HiHiPrio" DataType="Boolean" Locked="False" Visibility="Public" Overridden="False">
+      <Expression Expression="False" />
+    </CustomProperty>
+    <CustomProperty Name="ShelveDuration" DataType="Integer" Locked="False" Visibility="Public" Overridden="False">
+      <Expression Expression="0" />
+    </CustomProperty>
+    <CustomProperty Name="ShelveComment" DataType="String" Locked="False" Visibility="Public" Overridden="False">
+      <Expression Text="" />
+    </CustomProperty>
+  </CustomProperties>
+  <Font Name="Arial" Size="12" Bold="false" Italic="false" Strikeout="false" Underline="false" Charset="0" VerticalFont="false" />
+  <GraphicElements>
+    <Rectangle Name="Rectangle1" Left="50" Top="60" Width="500" Height="610" LocalLeft="50" LocalTop="60" LocalWidth="500" LocalHeight="610" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="3" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="True" HasLineStyleData="True" HasTextStyleData="False" ElementStyleID="502" HasCustomProperties="False">
+      <BaseRectPoints>
+        <Point X="50" Y="60" />
+        <Point X="550" Y="60" />
+        <Point X="550" Y="600" />
+        <Point X="50" Y="600" />
+      </BaseRectPoints>
+      <FillStyleData VerticalPercentFill="100" HorizontalPercentFill="100">
+        <FillStyle FillType="Solid">
+          <SolidFill>
+            <FillColor R="255" G="255" B="255" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </FillStyle>
+        <UnfilledStyle FillType="Solid">
+          <SolidFill>
+            <FillColor R="0" G="0" B="0" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </UnfilledStyle>
+        <FillBehavior>Both</FillBehavior>
+        <HorizontalDirection>Right</HorizontalDirection>
+        <VerticalDirection>Up</VerticalDirection>
+        <FillOrientation>RelativeToGraphic</FillOrientation>
+      </FillStyleData>
+      <LineStyleData>
+        <LineStyle Weight="1" LinePattern="Solid">
+          <FillStyle FillType="Solid">
+            <SolidFill>
+              <FillColor R="0" G="0" B="0" A="255" />
+              <Transparency>0</Transparency>
+            </SolidFill>
+          </FillStyle>
+        </LineStyle>
+      </LineStyleData>
+    </Rectangle>
+    <Text Name="Text1" Left="130" Top="81.80029" Width="3.586426" Height="15.60254" LocalLeft="130" LocalTop="81.80029" LocalWidth="3.586426" LocalHeight="15.60254" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="28" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="False" HasLineStyleData="False" HasTextStyleData="True" ElementStyleID="504" HasCustomProperties="False">
+      <TextStyleData Text="-" WordWrap="False" ReadingOrder="LeftToRight" Alignment="MiddleLeft" Orientation="0" AutoScale="True" Expandable="True">
+        <TextColor FillType="Solid">
+          <SolidFill>
+            <FillColor R="255" G="255" B="255" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </TextColor>
+        <Font Name="Roboto" Size="10" Bold="false" Italic="false" Strikeout="false" Underline="false" Charset="0" VerticalFont="false" />
+        <TextFormat FormatType="FormatString" FormatString="" />
+      </TextStyleData>
+      <Animations>
+        <ValueDisplay Enabled="true">
+          <String Expression="Me.Temperature.HiHi.DescAttrName" />
+        </ValueDisplay>
+      </Animations>
+    </Text>
+    <RoundRectangle Name="RoundRectangle1" Left="130" Top="120" Width="290" Height="6" LocalLeft="130" LocalTop="120" LocalWidth="290" LocalHeight="6" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="29" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="True" HasLineStyleData="True" HasTextStyleData="False" ElementStyleID="501" HasCustomProperties="False" Radius="5">
+      <BaseRectPoints>
+        <Point X="130" Y="120" />
+        <Point X="420" Y="120" />
+        <Point X="420" Y="126" />
+        <Point X="130" Y="126" />
+      </BaseRectPoints>
+      <FillStyleData VerticalPercentFill="100" HorizontalPercentFill="100">
+        <FillStyle FillType="Solid">
+          <SolidFill>
+            <FillColor R="255" G="255" B="255" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </FillStyle>
+        <UnfilledStyle FillType="Solid">
+          <SolidFill>
+            <FillColor R="0" G="0" B="0" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </UnfilledStyle>
+        <FillBehavior>Both</FillBehavior>
+        <HorizontalDirection>Right</HorizontalDirection>
+        <VerticalDirection>Up</VerticalDirection>
+        <FillOrientation>RelativeToGraphic</FillOrientation>
+      </FillStyleData>
+      <LineStyleData>
+        <LineStyle Weight="1" LinePattern="Solid">
+          <FillStyle FillType="Solid">
+            <SolidFill>
+              <FillColor R="0" G="0" B="0" A="255" />
+              <Transparency>0</Transparency>
+            </SolidFill>
+          </FillStyle>
+        </LineStyle>
+      </LineStyleData>
+    </RoundRectangle>
+    <RoundRectangle Name="RoundRectangle3" Left="130" Top="120" Width="290" Height="6" LocalLeft="130" LocalTop="120" LocalWidth="290" LocalHeight="6" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="30" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="True" HasLineStyleData="True" HasTextStyleData="False" ElementStyleID="1040" HasCustomProperties="False" Radius="5">
+      <BaseRectPoints>
+        <Point X="130" Y="120" />
+        <Point X="420" Y="120" />
+        <Point X="420" Y="126" />
+        <Point X="130" Y="126" />
+      </BaseRectPoints>
+      <FillStyleData VerticalPercentFill="100" HorizontalPercentFill="100">
+        <FillStyle FillType="Solid">
+          <SolidFill>
+            <FillColor R="255" G="255" B="255" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </FillStyle>
+        <UnfilledStyle FillType="Solid">
+          <SolidFill>
+            <FillColor R="0" G="0" B="0" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </UnfilledStyle>
+        <FillBehavior>Both</FillBehavior>
+        <HorizontalDirection>Right</HorizontalDirection>
+        <VerticalDirection>Up</VerticalDirection>
+        <FillOrientation>RelativeToGraphic</FillOrientation>
+      </FillStyleData>
+      <LineStyleData>
+        <LineStyle Weight="0" LinePattern="Solid">
+          <FillStyle FillType="Solid">
+            <SolidFill>
+              <FillColor R="0" G="0" B="0" A="255" />
+              <Transparency>0</Transparency>
+            </SolidFill>
+          </FillStyle>
+        </LineStyle>
+      </LineStyleData>
+      <Animations>
+        <Width Enabled="true">
+          <Analog Expression="Me.Temperature.HiHi.Limit" />
+          <ValueMin Expression="50" />
+          <ValueMax Expression="160" />
+          <PercentMin Expression="0" />
+          <PercentMax Expression="100" />
+          <Direction>Left</Direction>
+        </Width>
+        <ElementStyle Enabled="true">
+          <AnimationExpression>
+            <TruthTable Expression="Me.Temperature.HiHi.Priority * (Me.Temperature.HiHi.AlarmMode&lt;&gt;2)" />
+          </AnimationExpression>
+          <ElementStyleChangeType>Analog</ElementStyleChangeType>
+          <TruthTableBreakPoints DataType="Integer" IgnoreCase="True">
+            <TruthTableRow>
+              <BreakPoint Expression="0" />
+              <Operator>LessThanEqual</Operator>
+              <ElementStyle UseDefaultElementStyle="False">503</ElementStyle>
+            </TruthTableRow>
+            <TruthTableRow>
+              <BreakPoint Expression="250" />
+              <Operator>LessThanEqual</Operator>
+              <ElementStyle UseDefaultElementStyle="False">320</ElementStyle>
+            </TruthTableRow>
+            <TruthTableRow>
+              <BreakPoint Expression="500" />
+              <Operator>LessThanEqual</Operator>
+              <ElementStyle UseDefaultElementStyle="False">330</ElementStyle>
+            </TruthTableRow>
+          </TruthTableBreakPoints>
+        </ElementStyle>
+      </Animations>
+    </RoundRectangle>
+    <RoundRectangle Name="RoundRectangle2" Left="130" Top="120" Width="290" Height="6" LocalLeft="130" LocalTop="120" LocalWidth="290" LocalHeight="6" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="31" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="True" HasLineStyleData="True" HasTextStyleData="False" ElementStyleID="501" HasCustomProperties="False" Radius="5">
+      <BaseRectPoints>
+        <Point X="130" Y="120" />
+        <Point X="420" Y="120" />
+        <Point X="420" Y="126" />
+        <Point X="130" Y="126" />
+      </BaseRectPoints>
+      <FillStyleData VerticalPercentFill="0" HorizontalPercentFill="100">
+        <FillStyle FillType="Solid">
+          <SolidFill>
+            <FillColor R="255" G="255" B="255" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </FillStyle>
+        <UnfilledStyle FillType="NoFill" />
+        <FillBehavior>Both</FillBehavior>
+        <HorizontalDirection>Right</HorizontalDirection>
+        <VerticalDirection>Up</VerticalDirection>
+        <FillOrientation>RelativeToGraphic</FillOrientation>
+      </FillStyleData>
+      <LineStyleData>
+        <LineStyle Weight="2" LinePattern="Solid">
+          <FillStyle FillType="Solid">
+            <SolidFill>
+              <FillColor R="0" G="0" B="0" A="255" />
+              <Transparency>0</Transparency>
+            </SolidFill>
+          </FillStyle>
+        </LineStyle>
+      </LineStyleData>
+    </RoundRectangle>
+    <RoundRectangle Name="RoundRectangle4" Left="130" Top="120" Width="290" Height="6" LocalLeft="130" LocalTop="120" LocalWidth="290" LocalHeight="6" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="32" Square="False" Transparency="80" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="True" HasLineStyleData="True" HasTextStyleData="False" ElementStyleID="503" HasCustomProperties="False" Radius="5">
+      <BaseRectPoints>
+        <Point X="130" Y="120" />
+        <Point X="420" Y="120" />
+        <Point X="420" Y="126" />
+        <Point X="130" Y="126" />
+      </BaseRectPoints>
+      <FillStyleData VerticalPercentFill="0" HorizontalPercentFill="100">
+        <FillStyle FillType="Solid">
+          <SolidFill>
+            <FillColor R="255" G="255" B="255" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </FillStyle>
+        <UnfilledStyle FillType="NoFill" />
+        <FillBehavior>Both</FillBehavior>
+        <HorizontalDirection>Right</HorizontalDirection>
+        <VerticalDirection>Up</VerticalDirection>
+        <FillOrientation>RelativeToGraphic</FillOrientation>
+      </FillStyleData>
+      <LineStyleData>
+        <LineStyle Weight="2" LinePattern="Solid">
+          <FillStyle FillType="Solid">
+            <SolidFill>
+              <FillColor R="0" G="0" B="0" A="255" />
+              <Transparency>0</Transparency>
+            </SolidFill>
+          </FillStyle>
+        </LineStyle>
+      </LineStyleData>
+    </RoundRectangle>
+    <RoundRectangle Name="RoundRectangle5" Left="450" Top="108" Width="70" Height="30" LocalLeft="450" LocalTop="108" LocalWidth="70" LocalHeight="30" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="33" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="True" HasLineStyleData="True" HasTextStyleData="False" ElementStyleID="501" HasCustomProperties="False" Radius="5">
+      <BaseRectPoints>
+        <Point X="450" Y="108" />
+        <Point X="520" Y="108" />
+        <Point X="520" Y="138" />
+        <Point X="450" Y="138" />
+      </BaseRectPoints>
+      <FillStyleData VerticalPercentFill="100" HorizontalPercentFill="100">
+        <FillStyle FillType="Solid">
+          <SolidFill>
+            <FillColor R="255" G="255" B="255" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </FillStyle>
+        <UnfilledStyle FillType="Solid">
+          <SolidFill>
+            <FillColor R="0" G="0" B="0" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </UnfilledStyle>
+        <FillBehavior>Both</FillBehavior>
+        <HorizontalDirection>Right</HorizontalDirection>
+        <VerticalDirection>Up</VerticalDirection>
+        <FillOrientation>RelativeToGraphic</FillOrientation>
+      </FillStyleData>
+      <LineStyleData>
+        <LineStyle Weight="1" LinePattern="Solid">
+          <FillStyle FillType="Solid">
+            <SolidFill>
+              <FillColor R="0" G="0" B="0" A="255" />
+              <Transparency>0</Transparency>
+            </SolidFill>
+          </FillStyle>
+        </LineStyle>
+      </LineStyleData>
+    </RoundRectangle>
+    <RoundRectangle Name="RoundRectangle6" Left="450" Top="108" Width="70" Height="30" LocalLeft="450" LocalTop="108" LocalWidth="70" LocalHeight="30" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="34" Square="False" Transparency="80" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="True" HasLineStyleData="True" HasTextStyleData="False" ElementStyleID="503" HasCustomProperties="False" Radius="5">
+      <BaseRectPoints>
+        <Point X="450" Y="108" />
+        <Point X="520" Y="108" />
+        <Point X="520" Y="138" />
+        <Point X="450" Y="138" />
+      </BaseRectPoints>
+      <FillStyleData VerticalPercentFill="0" HorizontalPercentFill="100">
+        <FillStyle FillType="Solid">
+          <SolidFill>
+            <FillColor R="255" G="255" B="255" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </FillStyle>
+        <UnfilledStyle FillType="NoFill" />
+        <FillBehavior>Both</FillBehavior>
+        <HorizontalDirection>Right</HorizontalDirection>
+        <VerticalDirection>Up</VerticalDirection>
+        <FillOrientation>RelativeToGraphic</FillOrientation>
+      </FillStyleData>
+      <LineStyleData>
+        <LineStyle Weight="2" LinePattern="Solid">
+          <FillStyle FillType="Solid">
+            <SolidFill>
+              <FillColor R="0" G="0" B="0" A="255" />
+              <Transparency>0</Transparency>
+            </SolidFill>
+          </FillStyle>
+        </LineStyle>
+      </LineStyleData>
+    </RoundRectangle>
+    <Text Name="Text4" Left="470" Top="115.8957" Width="21.32178" Height="15.60254" LocalLeft="470" LocalTop="115.8957" LocalWidth="21.32178" LocalHeight="15.60254" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="35" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="False" HasLineStyleData="False" HasTextStyleData="True" ElementStyleID="503" HasCustomProperties="False">
+      <TextStyleData Text="#°C" WordWrap="False" ReadingOrder="LeftToRight" Alignment="MiddleLeft" Orientation="0" AutoScale="True" Expandable="True">
+        <TextColor FillType="Solid">
+          <SolidFill>
+            <FillColor R="255" G="255" B="255" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </TextColor>
+        <Font Name="Roboto" Size="10" Bold="false" Italic="false" Strikeout="false" Underline="false" Charset="0" VerticalFont="false" />
+        <TextFormat FormatType="FormatString" FormatString="" />
+      </TextStyleData>
+      <Animations>
+        <UserInput Enabled="true">
+          <Analog Reference="Me.Temperature.HiHi.Limit">
+            <Interaction InputOnly="false" UseKeypad="false">
+              <ValueDisplay />
+            </Interaction>
+            <ValueLimits>
+              <Minimum Expression="0" />
+              <Maximum Expression="160" />
+            </ValueLimits>
+          </Analog>
+          <MessageToUser Text="" />
+        </UserInput>
+        <ElementStyle Enabled="true">
+          <AnimationExpression>
+            <Discrete Expression="(Me.Temperature.HiHi.AlarmMode&lt;&gt;2)" />
+          </AnimationExpression>
+          <ElementStyleChangeType>Discrete</ElementStyleChangeType>
+          <TrueElementStyle>504</TrueElementStyle>
+          <TrueElementStyleUseDefault>False</TrueElementStyleUseDefault>
+          <FalseElementStyle>0</FalseElementStyle>
+          <FalseElementStyleUseDefault>True</FalseElementStyleUseDefault>
+        </ElementStyle>
+      </Animations>
+    </Text>
+    <Ellipse Name="Ellipse2" Left="266.515" Top="115" Width="16" Height="16" LocalLeft="266.515" LocalTop="115" LocalWidth="16" LocalHeight="16" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="36" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="True" HasLineStyleData="True" HasTextStyleData="False" ElementStyleID="503" HasCustomProperties="False">
+      <BaseRectPoints>
+        <Point X="266.515" Y="115" />
+        <Point X="282.515" Y="115" />
+        <Point X="282.515" Y="131" />
+        <Point X="266.515" Y="131" />
+      </BaseRectPoints>
+      <FillStyleData VerticalPercentFill="100" HorizontalPercentFill="100">
+        <FillStyle FillType="Solid">
+          <SolidFill>
+            <FillColor R="255" G="255" B="255" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </FillStyle>
+        <UnfilledStyle FillType="Solid">
+          <SolidFill>
+            <FillColor R="0" G="0" B="0" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </UnfilledStyle>
+        <FillBehavior>Both</FillBehavior>
+        <HorizontalDirection>Right</HorizontalDirection>
+        <VerticalDirection>Up</VerticalDirection>
+        <FillOrientation>RelativeToGraphic</FillOrientation>
+      </FillStyleData>
+      <LineStyleData>
+        <LineStyle Weight="1" LinePattern="Solid">
+          <FillStyle FillType="Solid">
+            <SolidFill>
+              <FillColor R="0" G="0" B="0" A="255" />
+              <Transparency>0</Transparency>
+            </SolidFill>
+          </FillStyle>
+        </LineStyle>
+      </LineStyleData>
+      <Animations>
+        <HorizontalSlider Enabled="true">
+          <Analog Reference="Me.Temperature.HiHi.Limit" />
+          <ValueTop Expression="50" />
+          <ValueBottom Expression="160" />
+          <MoveUp Expression="145" />
+          <MoveDown Expression="145" />
+          <SliderType>Horizontal</SliderType>
+          <CursorAnchor>Left</CursorAnchor>
+          <ShowToolTip>False</ShowToolTip>
+          <WriteDataOption>OnMouseRelease</WriteDataOption>
+        </HorizontalSlider>
+        <Disable Enabled="true" EnableState="False">
+          <AnimationType>Discrete</AnimationType>
+          <Discrete Expression="Me.Temperature.HiHi.AlarmMode==1" />
+        </Disable>
+        <ElementStyle Enabled="true">
+          <AnimationExpression>
+            <Discrete Expression="(Me.Temperature.HiHi.AlarmMode&lt;&gt;2)" />
+          </AnimationExpression>
+          <ElementStyleChangeType>Discrete</ElementStyleChangeType>
+          <TrueElementStyle>504</TrueElementStyle>
+          <TrueElementStyleUseDefault>False</TrueElementStyleUseDefault>
+          <FalseElementStyle>0</FalseElementStyle>
+          <FalseElementStyleUseDefault>True</FalseElementStyleUseDefault>
+        </ElementStyle>
+      </Animations>
+    </Ellipse>
+    <RoundRectangle Name="RoundRectangle7" Left="130" Top="320" Width="390" Height="120" LocalLeft="130" LocalTop="320" LocalWidth="390" LocalHeight="120" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="146" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="True" HasLineStyleData="True" HasTextStyleData="False" ElementStyleID="501" HasCustomProperties="False" Radius="5">
+      <FillStyleData VerticalPercentFill="100" HorizontalPercentFill="100">
+        <FillStyle FillType="Solid">
+          <SolidFill>
+            <FillColor R="255" G="255" B="255" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </FillStyle>
+        <UnfilledStyle FillType="Solid">
+          <SolidFill>
+            <FillColor R="0" G="0" B="0" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </UnfilledStyle>
+        <FillBehavior>Both</FillBehavior>
+        <HorizontalDirection>Right</HorizontalDirection>
+        <VerticalDirection>Up</VerticalDirection>
+        <FillOrientation>RelativeToGraphic</FillOrientation>
+      </FillStyleData>
+      <LineStyleData>
+        <LineStyle Weight="1" LinePattern="Solid">
+          <FillStyle FillType="Solid">
+            <SolidFill>
+              <FillColor R="0" G="0" B="0" A="255" />
+              <Transparency>0</Transparency>
+            </SolidFill>
+          </FillStyle>
+        </LineStyle>
+      </LineStyleData>
+    </RoundRectangle>
+    <RoundRectangle Name="RoundRectangle8" Left="130" Top="320" Width="390" Height="120" LocalLeft="130" LocalTop="320" LocalWidth="390" LocalHeight="120" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="148" Square="False" Transparency="80" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="True" HasLineStyleData="True" HasTextStyleData="False" ElementStyleID="503" HasCustomProperties="False" Radius="5">
+      <BaseRectPoints>
+        <Point X="450" Y="108" />
+        <Point X="520" Y="108" />
+        <Point X="520" Y="138" />
+        <Point X="450" Y="138" />
+      </BaseRectPoints>
+      <FillStyleData VerticalPercentFill="0" HorizontalPercentFill="100">
+        <FillStyle FillType="Solid">
+          <SolidFill>
+            <FillColor R="255" G="255" B="255" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </FillStyle>
+        <UnfilledStyle FillType="NoFill" />
+        <FillBehavior>Both</FillBehavior>
+        <HorizontalDirection>Right</HorizontalDirection>
+        <VerticalDirection>Up</VerticalDirection>
+        <FillOrientation>RelativeToGraphic</FillOrientation>
+      </FillStyleData>
+      <LineStyleData>
+        <LineStyle Weight="2" LinePattern="Solid">
+          <FillStyle FillType="Solid">
+            <SolidFill>
+              <FillColor R="0" G="0" B="0" A="255" />
+              <Transparency>0</Transparency>
+            </SolidFill>
+          </FillStyle>
+        </LineStyle>
+      </LineStyleData>
+    </RoundRectangle>
+    <Text Name="Text2" Left="150" Top="341.8003" Width="99.6582" Height="15.60254" LocalLeft="150" LocalTop="341.8003" LocalWidth="99.6582" LocalHeight="15.60254" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="147" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="False" HasLineStyleData="False" HasTextStyleData="True" ElementStyleID="504" HasCustomProperties="False">
+      <TextStyleData Text="Hi Alarm Enabled" WordWrap="False" ReadingOrder="LeftToRight" Alignment="MiddleLeft" Orientation="0" AutoScale="True" Expandable="True">
+        <TextColor FillType="Solid">
+          <SolidFill>
+            <FillColor R="255" G="255" B="255" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </TextColor>
+        <Font Name="Roboto" Size="10" Bold="false" Italic="false" Strikeout="false" Underline="false" Charset="0" VerticalFont="false" />
+        <TextFormat FormatType="FormatString" FormatString="" />
+      </TextStyleData>
+    </Text>
+    <Text Name="Text3" Left="150" Top="363.0005" Width="132.5371" Height="13.20215" LocalLeft="150" LocalTop="363.0005" LocalWidth="132.5371" LocalHeight="13.20215" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="149" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="False" HasLineStyleData="False" HasTextStyleData="True" ElementStyleID="503" HasCustomProperties="False">
+      <TextStyleData Text="Enable or disable the alram" WordWrap="False" ReadingOrder="LeftToRight" Alignment="MiddleLeft" Orientation="0" AutoScale="True" Expandable="True">
+        <TextColor FillType="Solid">
+          <SolidFill>
+            <FillColor R="255" G="255" B="255" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </TextColor>
+        <Font Name="Roboto" Size="8" Bold="false" Italic="false" Strikeout="false" Underline="false" Charset="0" VerticalFont="false" />
+        <TextFormat FormatType="FormatString" FormatString="" />
+      </TextStyleData>
+    </Text>
+    <EmbeddedSymbol OwningObject="" TreatAsIcon="False" Name="HiHi_Enable" Left="430" Top="350" Width="72" Height="25" LocalLeft="430" LocalTop="350" LocalWidth="72" LocalHeight="25" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="150" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="False" HasLineStyleData="False" HasTextStyleData="False" ElementStyleID="0" DynamicSizeChange="True" AnchorPointX="466" AnchorPointY="362.5" WidthScaleFactor="1" HeightScaleFactor="1" EmbeddedSymbolReference="Symbol:FSO_MVA_ToogleSwitch" VisualElementReferenceLookupIndex="0" SymbolLocation="1">
+      <CustomProperties>
+        <CustomProperty Name="vOut" DataType="Integer" Locked="False" Visibility="Public" Overridden="True">
+          <Expression Expression="Me.Temperature.Hi.AlarmModeCmd" />
+        </CustomProperty>
+        <CustomProperty Name="vIn_Off" DataType="Integer" Locked="False" Visibility="Public" Overridden="True">
+          <Expression Text="2" />
+        </CustomProperty>
+        <CustomProperty Name="vIn_On" DataType="Integer" Locked="False" Visibility="Public" Overridden="False">
+          <Expression Expression="1" />
+        </CustomProperty>
+        <CustomProperty Name="Disable" DataType="Boolean" Locked="False" Visibility="Public" Overridden="False">
+          <Expression Expression="False" />
+        </CustomProperty>
+      </CustomProperties>
+    </EmbeddedSymbol>
+    <Text Name="Text5" Left="150" Top="391.8003" Width="102.4639" Height="15.60254" LocalLeft="150" LocalTop="391.8003" LocalWidth="102.4639" LocalHeight="15.60254" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="151" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="False" HasLineStyleData="False" HasTextStyleData="True" ElementStyleID="504" HasCustomProperties="False">
+      <TextStyleData Text="Hi Alarm Silenced" WordWrap="False" ReadingOrder="LeftToRight" Alignment="MiddleLeft" Orientation="0" AutoScale="True" Expandable="True">
+        <TextColor FillType="Solid">
+          <SolidFill>
+            <FillColor R="255" G="255" B="255" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </TextColor>
+        <Font Name="Roboto" Size="10" Bold="false" Italic="false" Strikeout="false" Underline="false" Charset="0" VerticalFont="false" />
+        <TextFormat FormatType="FormatString" FormatString="" />
+      </TextStyleData>
+    </Text>
+    <Text Name="Text6" Left="150" Top="413.0005" Width="155.1172" Height="13.20215" LocalLeft="150" LocalTop="413.0005" LocalWidth="155.1172" LocalHeight="13.20215" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="152" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="False" HasLineStyleData="False" HasTextStyleData="True" ElementStyleID="503" HasCustomProperties="False">
+      <TextStyleData Text="Alarm tracked but not displayed" WordWrap="False" ReadingOrder="LeftToRight" Alignment="MiddleLeft" Orientation="0" AutoScale="True" Expandable="True">
+        <TextColor FillType="Solid">
+          <SolidFill>
+            <FillColor R="255" G="255" B="255" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </TextColor>
+        <Font Name="Roboto" Size="8" Bold="false" Italic="false" Strikeout="false" Underline="false" Charset="0" VerticalFont="false" />
+        <TextFormat FormatType="FormatString" FormatString="" />
+      </TextStyleData>
+    </Text>
+    <EmbeddedSymbol OwningObject="" TreatAsIcon="False" Name="EmbeddedSymbol1" Left="430" Top="400" Width="72" Height="25" LocalLeft="430" LocalTop="400" LocalWidth="72" LocalHeight="25" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="153" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="False" HasLineStyleData="False" HasTextStyleData="False" ElementStyleID="0" DynamicSizeChange="True" AnchorPointX="466" AnchorPointY="412.5" WidthScaleFactor="1" HeightScaleFactor="1" EmbeddedSymbolReference="Symbol:FSO_MVA_ToogleSwitch" VisualElementReferenceLookupIndex="0" SymbolLocation="1">
+      <CustomProperties>
+        <CustomProperty Name="vOut" DataType="Integer" Locked="False" Visibility="Public" Overridden="True">
+          <Expression Expression="Me.Temperature.Hi.AlarmModeCmd" />
+        </CustomProperty>
+        <CustomProperty Name="vIn_Off" DataType="Integer" Locked="False" Visibility="Public" Overridden="True">
+          <Expression Text="1" />
+        </CustomProperty>
+        <CustomProperty Name="vIn_On" DataType="Integer" Locked="False" Visibility="Public" Overridden="True">
+          <Expression Text="3" />
+        </CustomProperty>
+        <CustomProperty Name="Disable" DataType="Boolean" Locked="False" Visibility="Public" Overridden="False">
+          <Expression Expression="False" />
+        </CustomProperty>
+      </CustomProperties>
+    </EmbeddedSymbol>
+    <RoundRectangle Name="RoundRectangle9" Left="130" Top="550" Width="100" Height="40" LocalLeft="130" LocalTop="550" LocalWidth="100" LocalHeight="40" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="155" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="True" HasLineStyleData="True" HasTextStyleData="False" ElementStyleID="501" HasCustomProperties="False" Radius="5">
+      <FillStyleData VerticalPercentFill="100" HorizontalPercentFill="100">
+        <FillStyle FillType="Solid">
+          <SolidFill>
+            <FillColor R="255" G="255" B="255" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </FillStyle>
+        <UnfilledStyle FillType="Solid">
+          <SolidFill>
+            <FillColor R="0" G="0" B="0" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </UnfilledStyle>
+        <FillBehavior>Both</FillBehavior>
+        <HorizontalDirection>Right</HorizontalDirection>
+        <VerticalDirection>Up</VerticalDirection>
+        <FillOrientation>RelativeToGraphic</FillOrientation>
+      </FillStyleData>
+      <LineStyleData>
+        <LineStyle Weight="1" LinePattern="Solid">
+          <FillStyle FillType="Solid">
+            <SolidFill>
+              <FillColor R="0" G="0" B="0" A="255" />
+              <Transparency>0</Transparency>
+            </SolidFill>
+          </FillStyle>
+        </LineStyle>
+      </LineStyleData>
+    </RoundRectangle>
+    <RoundRectangle Name="RoundRectangle10" Left="130" Top="550" Width="100" Height="40" LocalLeft="130" LocalTop="550" LocalWidth="100" LocalHeight="40" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="156" Square="False" Transparency="80" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="True" HasLineStyleData="True" HasTextStyleData="False" ElementStyleID="503" HasCustomProperties="False" Radius="5">
+      <BaseRectPoints>
+        <Point X="450" Y="108" />
+        <Point X="520" Y="108" />
+        <Point X="520" Y="138" />
+        <Point X="450" Y="138" />
+      </BaseRectPoints>
+      <FillStyleData VerticalPercentFill="0" HorizontalPercentFill="100">
+        <FillStyle FillType="Solid">
+          <SolidFill>
+            <FillColor R="255" G="255" B="255" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </FillStyle>
+        <UnfilledStyle FillType="NoFill" />
+        <FillBehavior>Both</FillBehavior>
+        <HorizontalDirection>Right</HorizontalDirection>
+        <VerticalDirection>Up</VerticalDirection>
+        <FillOrientation>RelativeToGraphic</FillOrientation>
+      </FillStyleData>
+      <LineStyleData>
+        <LineStyle Weight="2" LinePattern="Solid">
+          <FillStyle FillType="Solid">
+            <SolidFill>
+              <FillColor R="0" G="0" B="0" A="255" />
+              <Transparency>0</Transparency>
+            </SolidFill>
+          </FillStyle>
+        </LineStyle>
+      </LineStyleData>
+    </RoundRectangle>
+    <Text Name="Text7" Left="130" Top="460" Width="91.45703" Height="15.60254" LocalLeft="130" LocalTop="460" LocalWidth="91.45703" LocalHeight="15.60254" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="157" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="False" HasLineStyleData="False" HasTextStyleData="True" ElementStyleID="504" HasCustomProperties="False">
+      <TextStyleData Text="Shelve Hi Alarm" WordWrap="False" ReadingOrder="LeftToRight" Alignment="MiddleLeft" Orientation="0" AutoScale="True" Expandable="True">
+        <TextColor FillType="Solid">
+          <SolidFill>
+            <FillColor R="255" G="255" B="255" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </TextColor>
+        <Font Name="Roboto" Size="10" Bold="false" Italic="false" Strikeout="false" Underline="false" Charset="0" VerticalFont="false" />
+        <TextFormat FormatType="FormatString" FormatString="" />
+      </TextStyleData>
+    </Text>
+    <Text Name="Text8" Left="130" Top="481.2002" Width="175.0117" Height="13.20215" LocalLeft="130" LocalTop="481.2002" LocalWidth="175.0117" LocalHeight="13.20215" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="158" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="False" HasLineStyleData="False" HasTextStyleData="True" ElementStyleID="503" HasCustomProperties="False">
+      <TextStyleData Text="Alarm is hidden for a period of time." WordWrap="False" ReadingOrder="LeftToRight" Alignment="MiddleLeft" Orientation="0" AutoScale="True" Expandable="True">
+        <TextColor FillType="Solid">
+          <SolidFill>
+            <FillColor R="255" G="255" B="255" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </TextColor>
+        <Font Name="Roboto" Size="8" Bold="false" Italic="false" Strikeout="false" Underline="false" Charset="0" VerticalFont="false" />
+        <TextFormat FormatType="FormatString" FormatString="" />
+      </TextStyleData>
+    </Text>
+    <Text Name="Text9" Left="130" Top="499.3999" Width="155.1763" Height="13.20215" LocalLeft="130" LocalTop="499.3999" LocalWidth="155.1763" LocalHeight="13.20215" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="163" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="False" HasLineStyleData="False" HasTextStyleData="True" ElementStyleID="503" HasCustomProperties="False">
+      <TextStyleData Text="Shelved Alarm is still historized." WordWrap="False" ReadingOrder="LeftToRight" Alignment="MiddleLeft" Orientation="0" AutoScale="True" Expandable="True">
+        <TextColor FillType="Solid">
+          <SolidFill>
+            <FillColor R="255" G="255" B="255" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </TextColor>
+        <Font Name="Roboto" Size="8" Bold="false" Italic="false" Strikeout="false" Underline="false" Charset="0" VerticalFont="false" />
+        <TextFormat FormatType="FormatString" FormatString="" />
+      </TextStyleData>
+    </Text>
+    <RoundRectangle Name="RoundRectangle11" Left="130" Top="262" Width="390" Height="40" LocalLeft="130" LocalTop="262" LocalWidth="390" LocalHeight="40" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="164" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="True" HasLineStyleData="True" HasTextStyleData="False" ElementStyleID="501" HasCustomProperties="False" Radius="5">
+      <FillStyleData VerticalPercentFill="100" HorizontalPercentFill="100">
+        <FillStyle FillType="Solid">
+          <SolidFill>
+            <FillColor R="255" G="255" B="255" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </FillStyle>
+        <UnfilledStyle FillType="Solid">
+          <SolidFill>
+            <FillColor R="0" G="0" B="0" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </UnfilledStyle>
+        <FillBehavior>Both</FillBehavior>
+        <HorizontalDirection>Right</HorizontalDirection>
+        <VerticalDirection>Up</VerticalDirection>
+        <FillOrientation>RelativeToGraphic</FillOrientation>
+      </FillStyleData>
+      <LineStyleData>
+        <LineStyle Weight="1" LinePattern="Solid">
+          <FillStyle FillType="Solid">
+            <SolidFill>
+              <FillColor R="0" G="0" B="0" A="255" />
+              <Transparency>0</Transparency>
+            </SolidFill>
+          </FillStyle>
+        </LineStyle>
+      </LineStyleData>
+    </RoundRectangle>
+    <RoundRectangle Name="RoundRectangle12" Left="130" Top="262" Width="390" Height="40" LocalLeft="130" LocalTop="262" LocalWidth="390" LocalHeight="40" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="165" Square="False" Transparency="80" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="True" HasLineStyleData="True" HasTextStyleData="False" ElementStyleID="503" HasCustomProperties="False" Radius="5">
+      <BaseRectPoints>
+        <Point X="450" Y="108" />
+        <Point X="520" Y="108" />
+        <Point X="520" Y="138" />
+        <Point X="450" Y="138" />
+      </BaseRectPoints>
+      <FillStyleData VerticalPercentFill="0" HorizontalPercentFill="100">
+        <FillStyle FillType="Solid">
+          <SolidFill>
+            <FillColor R="255" G="255" B="255" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </FillStyle>
+        <UnfilledStyle FillType="NoFill" />
+        <FillBehavior>Both</FillBehavior>
+        <HorizontalDirection>Right</HorizontalDirection>
+        <VerticalDirection>Up</VerticalDirection>
+        <FillOrientation>RelativeToGraphic</FillOrientation>
+      </FillStyleData>
+      <LineStyleData>
+        <LineStyle Weight="2" LinePattern="Solid">
+          <FillStyle FillType="Solid">
+            <SolidFill>
+              <FillColor R="0" G="0" B="0" A="255" />
+              <Transparency>0</Transparency>
+            </SolidFill>
+          </FillStyle>
+        </LineStyle>
+      </LineStyleData>
+    </RoundRectangle>
+    <Text Name="Text10" Left="130" Top="233.8003" Width="41.12012" Height="15.60254" LocalLeft="130" LocalTop="233.8003" LocalWidth="41.12012" LocalHeight="15.60254" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="166" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="False" HasLineStyleData="False" HasTextStyleData="True" ElementStyleID="504" HasCustomProperties="False">
+      <TextStyleData Text="Priority" WordWrap="False" ReadingOrder="LeftToRight" Alignment="MiddleLeft" Orientation="0" AutoScale="True" Expandable="True">
+        <TextColor FillType="Solid">
+          <SolidFill>
+            <FillColor R="255" G="255" B="255" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </TextColor>
+        <Font Name="Roboto" Size="10" Bold="false" Italic="false" Strikeout="false" Underline="false" Charset="0" VerticalFont="false" />
+        <TextFormat FormatType="FormatString" FormatString="" />
+      </TextStyleData>
+    </Text>
+    <Text Name="Text11" Left="130" Top="163.8003" Width="3.586426" Height="15.60254" LocalLeft="130" LocalTop="163.8003" LocalWidth="3.586426" LocalHeight="15.60254" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="167" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="False" HasLineStyleData="False" HasTextStyleData="True" ElementStyleID="504" HasCustomProperties="False">
+      <TextStyleData Text="-" WordWrap="False" ReadingOrder="LeftToRight" Alignment="MiddleLeft" Orientation="0" AutoScale="True" Expandable="True">
+        <TextColor FillType="Solid">
+          <SolidFill>
+            <FillColor R="255" G="255" B="255" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </TextColor>
+        <Font Name="Roboto" Size="10" Bold="false" Italic="false" Strikeout="false" Underline="false" Charset="0" VerticalFont="false" />
+        <TextFormat FormatType="FormatString" FormatString="" />
+      </TextStyleData>
+      <Animations>
+        <ValueDisplay Enabled="true">
+          <String Expression="Me.Temperature.Hi.DescAttrName" />
+        </ValueDisplay>
+      </Animations>
+    </Text>
+    <RoundRectangle Name="RoundRectangle13" Left="130" Top="202" Width="290" Height="6" LocalLeft="130" LocalTop="202" LocalWidth="290" LocalHeight="6" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="168" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="True" HasLineStyleData="True" HasTextStyleData="False" ElementStyleID="501" HasCustomProperties="False" Radius="5">
+      <BaseRectPoints>
+        <Point X="130" Y="120" />
+        <Point X="420" Y="120" />
+        <Point X="420" Y="126" />
+        <Point X="130" Y="126" />
+      </BaseRectPoints>
+      <FillStyleData VerticalPercentFill="100" HorizontalPercentFill="100">
+        <FillStyle FillType="Solid">
+          <SolidFill>
+            <FillColor R="255" G="255" B="255" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </FillStyle>
+        <UnfilledStyle FillType="Solid">
+          <SolidFill>
+            <FillColor R="0" G="0" B="0" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </UnfilledStyle>
+        <FillBehavior>Both</FillBehavior>
+        <HorizontalDirection>Right</HorizontalDirection>
+        <VerticalDirection>Up</VerticalDirection>
+        <FillOrientation>RelativeToGraphic</FillOrientation>
+      </FillStyleData>
+      <LineStyleData>
+        <LineStyle Weight="1" LinePattern="Solid">
+          <FillStyle FillType="Solid">
+            <SolidFill>
+              <FillColor R="0" G="0" B="0" A="255" />
+              <Transparency>0</Transparency>
+            </SolidFill>
+          </FillStyle>
+        </LineStyle>
+      </LineStyleData>
+    </RoundRectangle>
+    <RoundRectangle Name="RoundRectangle14" Left="130" Top="202" Width="290" Height="6" LocalLeft="130" LocalTop="202" LocalWidth="290" LocalHeight="6" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="169" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="True" HasLineStyleData="True" HasTextStyleData="False" ElementStyleID="1040" HasCustomProperties="False" Radius="5">
+      <BaseRectPoints>
+        <Point X="130" Y="120" />
+        <Point X="420" Y="120" />
+        <Point X="420" Y="126" />
+        <Point X="130" Y="126" />
+      </BaseRectPoints>
+      <FillStyleData VerticalPercentFill="100" HorizontalPercentFill="100">
+        <FillStyle FillType="Solid">
+          <SolidFill>
+            <FillColor R="255" G="255" B="255" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </FillStyle>
+        <UnfilledStyle FillType="Solid">
+          <SolidFill>
+            <FillColor R="0" G="0" B="0" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </UnfilledStyle>
+        <FillBehavior>Both</FillBehavior>
+        <HorizontalDirection>Right</HorizontalDirection>
+        <VerticalDirection>Up</VerticalDirection>
+        <FillOrientation>RelativeToGraphic</FillOrientation>
+      </FillStyleData>
+      <LineStyleData>
+        <LineStyle Weight="0" LinePattern="Solid">
+          <FillStyle FillType="Solid">
+            <SolidFill>
+              <FillColor R="0" G="0" B="0" A="255" />
+              <Transparency>0</Transparency>
+            </SolidFill>
+          </FillStyle>
+        </LineStyle>
+      </LineStyleData>
+      <Animations>
+        <Width Enabled="true">
+          <Analog Expression="Me.Temperature.Hi.Limit" />
+          <ValueMin Expression="50" />
+          <ValueMax Expression="160" />
+          <PercentMin Expression="0" />
+          <PercentMax Expression="100" />
+          <Direction>Left</Direction>
+        </Width>
+        <ElementStyle Enabled="true">
+          <AnimationExpression>
+            <TruthTable Expression="Me.Temperature.Hi.Priority * (Me.Temperature.Hi.AlarmMode&lt;&gt;2)" />
+          </AnimationExpression>
+          <ElementStyleChangeType>Analog</ElementStyleChangeType>
+          <TruthTableBreakPoints DataType="Integer" IgnoreCase="True">
+            <TruthTableRow>
+              <BreakPoint Expression="0" />
+              <Operator>LessThanEqual</Operator>
+              <ElementStyle UseDefaultElementStyle="False">503</ElementStyle>
+            </TruthTableRow>
+            <TruthTableRow>
+              <BreakPoint Expression="250" />
+              <Operator>LessThanEqual</Operator>
+              <ElementStyle UseDefaultElementStyle="False">320</ElementStyle>
+            </TruthTableRow>
+            <TruthTableRow>
+              <BreakPoint Expression="500" />
+              <Operator>LessThanEqual</Operator>
+              <ElementStyle UseDefaultElementStyle="False">330</ElementStyle>
+            </TruthTableRow>
+          </TruthTableBreakPoints>
+        </ElementStyle>
+      </Animations>
+    </RoundRectangle>
+    <RoundRectangle Name="RoundRectangle15" Left="130" Top="202" Width="290" Height="6" LocalLeft="130" LocalTop="202" LocalWidth="290" LocalHeight="6" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="170" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="True" HasLineStyleData="True" HasTextStyleData="False" ElementStyleID="501" HasCustomProperties="False" Radius="5">
+      <BaseRectPoints>
+        <Point X="130" Y="120" />
+        <Point X="420" Y="120" />
+        <Point X="420" Y="126" />
+        <Point X="130" Y="126" />
+      </BaseRectPoints>
+      <FillStyleData VerticalPercentFill="0" HorizontalPercentFill="100">
+        <FillStyle FillType="Solid">
+          <SolidFill>
+            <FillColor R="255" G="255" B="255" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </FillStyle>
+        <UnfilledStyle FillType="NoFill" />
+        <FillBehavior>Both</FillBehavior>
+        <HorizontalDirection>Right</HorizontalDirection>
+        <VerticalDirection>Up</VerticalDirection>
+        <FillOrientation>RelativeToGraphic</FillOrientation>
+      </FillStyleData>
+      <LineStyleData>
+        <LineStyle Weight="2" LinePattern="Solid">
+          <FillStyle FillType="Solid">
+            <SolidFill>
+              <FillColor R="0" G="0" B="0" A="255" />
+              <Transparency>0</Transparency>
+            </SolidFill>
+          </FillStyle>
+        </LineStyle>
+      </LineStyleData>
+    </RoundRectangle>
+    <RoundRectangle Name="RoundRectangle16" Left="130" Top="202" Width="290" Height="6" LocalLeft="130" LocalTop="202" LocalWidth="290" LocalHeight="6" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="171" Square="False" Transparency="80" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="True" HasLineStyleData="True" HasTextStyleData="False" ElementStyleID="503" HasCustomProperties="False" Radius="5">
+      <BaseRectPoints>
+        <Point X="130" Y="120" />
+        <Point X="420" Y="120" />
+        <Point X="420" Y="126" />
+        <Point X="130" Y="126" />
+      </BaseRectPoints>
+      <FillStyleData VerticalPercentFill="0" HorizontalPercentFill="100">
+        <FillStyle FillType="Solid">
+          <SolidFill>
+            <FillColor R="255" G="255" B="255" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </FillStyle>
+        <UnfilledStyle FillType="NoFill" />
+        <FillBehavior>Both</FillBehavior>
+        <HorizontalDirection>Right</HorizontalDirection>
+        <VerticalDirection>Up</VerticalDirection>
+        <FillOrientation>RelativeToGraphic</FillOrientation>
+      </FillStyleData>
+      <LineStyleData>
+        <LineStyle Weight="2" LinePattern="Solid">
+          <FillStyle FillType="Solid">
+            <SolidFill>
+              <FillColor R="0" G="0" B="0" A="255" />
+              <Transparency>0</Transparency>
+            </SolidFill>
+          </FillStyle>
+        </LineStyle>
+      </LineStyleData>
+    </RoundRectangle>
+    <RoundRectangle Name="RoundRectangle17" Left="450" Top="190" Width="70" Height="30" LocalLeft="450" LocalTop="190" LocalWidth="70" LocalHeight="30" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="172" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="True" HasLineStyleData="True" HasTextStyleData="False" ElementStyleID="501" HasCustomProperties="False" Radius="5">
+      <BaseRectPoints>
+        <Point X="450" Y="108" />
+        <Point X="520" Y="108" />
+        <Point X="520" Y="138" />
+        <Point X="450" Y="138" />
+      </BaseRectPoints>
+      <FillStyleData VerticalPercentFill="100" HorizontalPercentFill="100">
+        <FillStyle FillType="Solid">
+          <SolidFill>
+            <FillColor R="255" G="255" B="255" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </FillStyle>
+        <UnfilledStyle FillType="Solid">
+          <SolidFill>
+            <FillColor R="0" G="0" B="0" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </UnfilledStyle>
+        <FillBehavior>Both</FillBehavior>
+        <HorizontalDirection>Right</HorizontalDirection>
+        <VerticalDirection>Up</VerticalDirection>
+        <FillOrientation>RelativeToGraphic</FillOrientation>
+      </FillStyleData>
+      <LineStyleData>
+        <LineStyle Weight="1" LinePattern="Solid">
+          <FillStyle FillType="Solid">
+            <SolidFill>
+              <FillColor R="0" G="0" B="0" A="255" />
+              <Transparency>0</Transparency>
+            </SolidFill>
+          </FillStyle>
+        </LineStyle>
+      </LineStyleData>
+    </RoundRectangle>
+    <RoundRectangle Name="RoundRectangle18" Left="450" Top="190" Width="70" Height="30" LocalLeft="450" LocalTop="190" LocalWidth="70" LocalHeight="30" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="173" Square="False" Transparency="80" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="True" HasLineStyleData="True" HasTextStyleData="False" ElementStyleID="503" HasCustomProperties="False" Radius="5">
+      <BaseRectPoints>
+        <Point X="450" Y="108" />
+        <Point X="520" Y="108" />
+        <Point X="520" Y="138" />
+        <Point X="450" Y="138" />
+      </BaseRectPoints>
+      <FillStyleData VerticalPercentFill="0" HorizontalPercentFill="100">
+        <FillStyle FillType="Solid">
+          <SolidFill>
+            <FillColor R="255" G="255" B="255" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </FillStyle>
+        <UnfilledStyle FillType="NoFill" />
+        <FillBehavior>Both</FillBehavior>
+        <HorizontalDirection>Right</HorizontalDirection>
+        <VerticalDirection>Up</VerticalDirection>
+        <FillOrientation>RelativeToGraphic</FillOrientation>
+      </FillStyleData>
+      <LineStyleData>
+        <LineStyle Weight="2" LinePattern="Solid">
+          <FillStyle FillType="Solid">
+            <SolidFill>
+              <FillColor R="0" G="0" B="0" A="255" />
+              <Transparency>0</Transparency>
+            </SolidFill>
+          </FillStyle>
+        </LineStyle>
+      </LineStyleData>
+    </RoundRectangle>
+    <Text Name="Text12" Left="470" Top="197.8957" Width="21.32178" Height="15.60254" LocalLeft="470" LocalTop="197.8957" LocalWidth="21.32178" LocalHeight="15.60254" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="174" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="False" HasLineStyleData="False" HasTextStyleData="True" ElementStyleID="503" HasCustomProperties="False">
+      <TextStyleData Text="#°C" WordWrap="False" ReadingOrder="LeftToRight" Alignment="MiddleLeft" Orientation="0" AutoScale="True" Expandable="True">
+        <TextColor FillType="Solid">
+          <SolidFill>
+            <FillColor R="255" G="255" B="255" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </TextColor>
+        <Font Name="Roboto" Size="10" Bold="false" Italic="false" Strikeout="false" Underline="false" Charset="0" VerticalFont="false" />
+        <TextFormat FormatType="FormatString" FormatString="" />
+      </TextStyleData>
+      <Animations>
+        <UserInput Enabled="true">
+          <Analog Reference="Me.Temperature.Hi.Limit">
+            <Interaction InputOnly="false" UseKeypad="false">
+              <ValueDisplay />
+            </Interaction>
+            <ValueLimits>
+              <Minimum Expression="0" />
+              <Maximum Expression="160" />
+            </ValueLimits>
+          </Analog>
+          <MessageToUser Text="" />
+        </UserInput>
+        <ElementStyle Enabled="true">
+          <AnimationExpression>
+            <Discrete Expression="(Me.Temperature.Hi.AlarmMode&lt;&gt;2)" />
+          </AnimationExpression>
+          <ElementStyleChangeType>Discrete</ElementStyleChangeType>
+          <TrueElementStyle>504</TrueElementStyle>
+          <TrueElementStyleUseDefault>False</TrueElementStyleUseDefault>
+          <FalseElementStyle>0</FalseElementStyle>
+          <FalseElementStyleUseDefault>True</FalseElementStyleUseDefault>
+        </ElementStyle>
+      </Animations>
+    </Text>
+    <Ellipse Name="Ellipse1" Left="266.515" Top="197" Width="16" Height="16" LocalLeft="266.515" LocalTop="197" LocalWidth="16" LocalHeight="16" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="175" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="True" HasLineStyleData="True" HasTextStyleData="False" ElementStyleID="503" HasCustomProperties="False">
+      <BaseRectPoints>
+        <Point X="266.515" Y="115" />
+        <Point X="282.515" Y="115" />
+        <Point X="282.515" Y="131" />
+        <Point X="266.515" Y="131" />
+      </BaseRectPoints>
+      <FillStyleData VerticalPercentFill="100" HorizontalPercentFill="100">
+        <FillStyle FillType="Solid">
+          <SolidFill>
+            <FillColor R="255" G="255" B="255" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </FillStyle>
+        <UnfilledStyle FillType="Solid">
+          <SolidFill>
+            <FillColor R="0" G="0" B="0" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </UnfilledStyle>
+        <FillBehavior>Both</FillBehavior>
+        <HorizontalDirection>Right</HorizontalDirection>
+        <VerticalDirection>Up</VerticalDirection>
+        <FillOrientation>RelativeToGraphic</FillOrientation>
+      </FillStyleData>
+      <LineStyleData>
+        <LineStyle Weight="1" LinePattern="Solid">
+          <FillStyle FillType="Solid">
+            <SolidFill>
+              <FillColor R="0" G="0" B="0" A="255" />
+              <Transparency>0</Transparency>
+            </SolidFill>
+          </FillStyle>
+        </LineStyle>
+      </LineStyleData>
+      <Animations>
+        <HorizontalSlider Enabled="true">
+          <Analog Reference="Me.Temperature.Hi.Limit" />
+          <ValueTop Expression="50" />
+          <ValueBottom Expression="160" />
+          <MoveUp Expression="145" />
+          <MoveDown Expression="145" />
+          <SliderType>Horizontal</SliderType>
+          <CursorAnchor>Left</CursorAnchor>
+          <ShowToolTip>False</ShowToolTip>
+          <WriteDataOption>OnMouseRelease</WriteDataOption>
+        </HorizontalSlider>
+        <Disable Enabled="true" EnableState="False">
+          <AnimationType>Discrete</AnimationType>
+          <Discrete Expression="Me.Temperature.Hi.AlarmMode==1" />
+        </Disable>
+        <ElementStyle Enabled="true">
+          <AnimationExpression>
+            <Discrete Expression="(Me.Temperature.Hi.AlarmMode&lt;&gt;2)" />
+          </AnimationExpression>
+          <ElementStyleChangeType>Discrete</ElementStyleChangeType>
+          <TrueElementStyle>504</TrueElementStyle>
+          <TrueElementStyleUseDefault>False</TrueElementStyleUseDefault>
+          <FalseElementStyle>0</FalseElementStyle>
+          <FalseElementStyleUseDefault>True</FalseElementStyleUseDefault>
+        </ElementStyle>
+      </Animations>
+    </Ellipse>
+    <Text Name="Text13" Left="150" Top="273.8003" Width="3.586426" Height="15.60254" LocalLeft="150" LocalTop="273.8003" LocalWidth="3.586426" LocalHeight="15.60254" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="176" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="False" HasLineStyleData="False" HasTextStyleData="True" ElementStyleID="504" HasCustomProperties="False">
+      <TextStyleData Text="-" WordWrap="False" ReadingOrder="LeftToRight" Alignment="MiddleLeft" Orientation="0" AutoScale="True" Expandable="True">
+        <TextColor FillType="Solid">
+          <SolidFill>
+            <FillColor R="255" G="255" B="255" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </TextColor>
+        <Font Name="Roboto" Size="10" Bold="false" Italic="false" Strikeout="false" Underline="false" Charset="0" VerticalFont="false" />
+        <TextFormat FormatType="FormatString" FormatString="" />
+      </TextStyleData>
+      <Animations>
+        <ValueDisplay Enabled="true">
+          <AnimationExpression>
+            <TruthTable Expression="Me.Temperature.Hi.Priority" />
+          </AnimationExpression>
+          <AnimationType>TruthTable</AnimationType>
+          <TruthTableBreakPoints DataType="Integer" IgnoreCase="True">
+            <TruthTableRow>
+              <Text Text="Critical" />
+              <BreakPoint Expression="250" />
+              <Operator>LessThanEqual</Operator>
+            </TruthTableRow>
+            <TruthTableRow>
+              <Text Text="High" />
+              <BreakPoint Expression="500" />
+              <Operator>LessThanEqual</Operator>
+            </TruthTableRow>
+            <TruthTableRow>
+              <Text Text="Medium" />
+              <BreakPoint Expression="750" />
+              <Operator>LessThanEqual</Operator>
+            </TruthTableRow>
+            <TruthTableRow>
+              <Text Text="Low" />
+              <BreakPoint Expression="750" />
+              <Operator>GreaterThan</Operator>
+            </TruthTableRow>
+          </TruthTableBreakPoints>
+        </ValueDisplay>
+      </Animations>
+    </Text>
+    <Group ChildBaseLeft="130" ChildBaseTop="330" ChildBaseWidth="390" ChildBaseHeight="120" PreviousLST="False" TreatAsIcon="False" Name="Group1" Left="130" Top="302" Width="390" Height="120" LocalLeft="130" LocalTop="302" LocalWidth="390" LocalHeight="120" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="False" ElementID="188" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="True" HasLineStyleData="True" HasTextStyleData="True" ElementStyleID="0" HasCustomProperties="False" LastUsedId="0" Description="" FaceplateMode="False">
+      <FillStyleData VerticalPercentFill="100" HorizontalPercentFill="100">
+        <FillStyle FillType="Solid">
+          <SolidFill>
+            <FillColor R="41" G="27" B="74" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </FillStyle>
+        <UnfilledStyle FillType="Solid">
+          <SolidFill>
+            <FillColor R="0" G="0" B="0" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </UnfilledStyle>
+        <FillBehavior>Both</FillBehavior>
+        <HorizontalDirection>Right</HorizontalDirection>
+        <VerticalDirection>Up</VerticalDirection>
+        <FillOrientation>RelativeToGraphic</FillOrientation>
+      </FillStyleData>
+      <LineStyleData>
+        <LineStyle Weight="1" LinePattern="Solid">
+          <FillStyle FillType="Solid">
+            <SolidFill>
+              <FillColor R="0" G="0" B="0" A="255" />
+              <Transparency>0</Transparency>
+            </SolidFill>
+          </FillStyle>
+        </LineStyle>
+      </LineStyleData>
+      <TextStyleData Text="" WordWrap="True" ReadingOrder="LeftToRight" Alignment="TopLeft" Orientation="0" TextFormat="" AutoScale="False" Expandable="False">
+        <TextColor FillType="Solid">
+          <SolidFill>
+            <FillColor R="0" G="0" B="0" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </TextColor>
+        <TextFormat FormatType="FormatString" FormatString="" />
+      </TextStyleData>
+      <Animations>
+        <Visibility Enabled="true" VisibleState="True">
+          <AnimationExpression>
+            <Discrete Expression="HiHiPrio" />
+          </AnimationExpression>
+          <AnimationType>Discrete</AnimationType>
+        </Visibility>
+      </Animations>
+      <Font Name="Arial" Size="12" Bold="false" Italic="false" Strikeout="false" Underline="false" Charset="0" VerticalFont="false" />
+      <GraphicElements>
+        <Rectangle Name="Rectangle2" Left="130" Top="302" Width="390" Height="120" LocalLeft="130" LocalTop="330" LocalWidth="390" LocalHeight="120" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="179" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="True" HasLineStyleData="True" HasTextStyleData="False" ElementStyleID="501" HasCustomProperties="False">
+          <BaseRectPoints>
+            <Point X="130" Y="302" />
+            <Point X="520" Y="302" />
+            <Point X="520" Y="422" />
+            <Point X="130" Y="422" />
+          </BaseRectPoints>
+          <FillStyleData VerticalPercentFill="100" HorizontalPercentFill="100">
+            <FillStyle FillType="Solid">
+              <SolidFill>
+                <FillColor R="255" G="255" B="255" A="255" />
+                <Transparency>0</Transparency>
+              </SolidFill>
+            </FillStyle>
+            <UnfilledStyle FillType="Solid">
+              <SolidFill>
+                <FillColor R="0" G="0" B="0" A="255" />
+                <Transparency>0</Transparency>
+              </SolidFill>
+            </UnfilledStyle>
+            <FillBehavior>Both</FillBehavior>
+            <HorizontalDirection>Right</HorizontalDirection>
+            <VerticalDirection>Up</VerticalDirection>
+            <FillOrientation>RelativeToGraphic</FillOrientation>
+          </FillStyleData>
+          <LineStyleData>
+            <LineStyle Weight="1" LinePattern="Solid">
+              <FillStyle FillType="Solid">
+                <SolidFill>
+                  <FillColor R="0" G="0" B="0" A="255" />
+                  <Transparency>0</Transparency>
+                </SolidFill>
+              </FillStyle>
+            </LineStyle>
+          </LineStyleData>
+        </Rectangle>
+        <Rectangle Name="Rectangle3" Left="130" Top="302" Width="390" Height="120" LocalLeft="130" LocalTop="330" LocalWidth="390" LocalHeight="120" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="180" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="True" HasLineStyleData="True" HasTextStyleData="False" ElementStyleID="503" HasCustomProperties="False">
+          <BaseRectPoints>
+            <Point X="130" Y="302" />
+            <Point X="520" Y="302" />
+            <Point X="520" Y="422" />
+            <Point X="130" Y="422" />
+          </BaseRectPoints>
+          <FillStyleData VerticalPercentFill="0" HorizontalPercentFill="100">
+            <FillStyle FillType="Solid">
+              <SolidFill>
+                <FillColor R="255" G="255" B="255" A="255" />
+                <Transparency>0</Transparency>
+              </SolidFill>
+            </FillStyle>
+            <UnfilledStyle FillType="NoFill" />
+            <FillBehavior>Both</FillBehavior>
+            <HorizontalDirection>Right</HorizontalDirection>
+            <VerticalDirection>Up</VerticalDirection>
+            <FillOrientation>RelativeToGraphic</FillOrientation>
+          </FillStyleData>
+          <LineStyleData>
+            <LineStyle Weight="1" LinePattern="Solid">
+              <FillStyle FillType="Solid">
+                <SolidFill>
+                  <FillColor R="0" G="0" B="0" A="255" />
+                  <Transparency>0</Transparency>
+                </SolidFill>
+              </FillStyle>
+            </LineStyle>
+          </LineStyleData>
+        </Rectangle>
+        <Rectangle Name="Rectangle4" Left="130" Top="302" Width="390" Height="30" LocalLeft="130" LocalTop="330" LocalWidth="390" LocalHeight="30" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="184" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="True" HasLineStyleData="True" HasTextStyleData="False" ElementStyleID="600" HasCustomProperties="True">
+          <BaseRectPoints>
+            <Point X="130" Y="302" />
+            <Point X="520" Y="302" />
+            <Point X="520" Y="332" />
+            <Point X="130" Y="332" />
+          </BaseRectPoints>
+          <FillStyleData VerticalPercentFill="100" HorizontalPercentFill="100">
+            <FillStyle FillType="Solid">
+              <SolidFill>
+                <FillColor R="255" G="255" B="255" A="255" />
+                <Transparency>0</Transparency>
+              </SolidFill>
+            </FillStyle>
+            <UnfilledStyle FillType="Solid">
+              <SolidFill>
+                <FillColor R="0" G="0" B="0" A="255" />
+                <Transparency>0</Transparency>
+              </SolidFill>
+            </UnfilledStyle>
+            <FillBehavior>Both</FillBehavior>
+            <HorizontalDirection>Right</HorizontalDirection>
+            <VerticalDirection>Up</VerticalDirection>
+            <FillOrientation>RelativeToGraphic</FillOrientation>
+          </FillStyleData>
+          <LineStyleData>
+            <LineStyle Weight="1" LinePattern="Solid">
+              <FillStyle FillType="Solid">
+                <SolidFill>
+                  <FillColor R="0" G="0" B="0" A="255" />
+                  <Transparency>0</Transparency>
+                </SolidFill>
+              </FillStyle>
+            </LineStyle>
+          </LineStyleData>
+          <Animations>
+            <Visibility Enabled="true" VisibleState="True">
+              <AnimationExpression>
+                <Discrete Expression="Me.Temperature.Hi.Priority &lt;= 250" />
+              </AnimationExpression>
+              <AnimationType>Discrete</AnimationType>
+            </Visibility>
+          </Animations>
+        </Rectangle>
+        <Rectangle Name="Rectangle5" Left="130" Top="332" Width="390" Height="30" LocalLeft="130" LocalTop="360" LocalWidth="390" LocalHeight="30" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="185" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="True" HasLineStyleData="True" HasTextStyleData="False" ElementStyleID="600" HasCustomProperties="True">
+          <BaseRectPoints>
+            <Point X="130" Y="332" />
+            <Point X="520" Y="332" />
+            <Point X="520" Y="362" />
+            <Point X="130" Y="362" />
+          </BaseRectPoints>
+          <FillStyleData VerticalPercentFill="100" HorizontalPercentFill="100">
+            <FillStyle FillType="Solid">
+              <SolidFill>
+                <FillColor R="255" G="255" B="255" A="255" />
+                <Transparency>0</Transparency>
+              </SolidFill>
+            </FillStyle>
+            <UnfilledStyle FillType="Solid">
+              <SolidFill>
+                <FillColor R="0" G="0" B="0" A="255" />
+                <Transparency>0</Transparency>
+              </SolidFill>
+            </UnfilledStyle>
+            <FillBehavior>Both</FillBehavior>
+            <HorizontalDirection>Right</HorizontalDirection>
+            <VerticalDirection>Up</VerticalDirection>
+            <FillOrientation>RelativeToGraphic</FillOrientation>
+          </FillStyleData>
+          <LineStyleData>
+            <LineStyle Weight="1" LinePattern="Solid">
+              <FillStyle FillType="Solid">
+                <SolidFill>
+                  <FillColor R="0" G="0" B="0" A="255" />
+                  <Transparency>0</Transparency>
+                </SolidFill>
+              </FillStyle>
+            </LineStyle>
+          </LineStyleData>
+          <Animations>
+            <Visibility Enabled="true" VisibleState="True">
+              <AnimationExpression>
+                <Discrete Expression="Me.Temperature.Hi.Priority &lt;= 500 and Me.Temperature.Hi.Priority &gt; 250" />
+              </AnimationExpression>
+              <AnimationType>Discrete</AnimationType>
+            </Visibility>
+          </Animations>
+        </Rectangle>
+        <Rectangle Name="Rectangle6" Left="130" Top="362" Width="390" Height="30" LocalLeft="130" LocalTop="390" LocalWidth="390" LocalHeight="30" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="186" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="True" HasLineStyleData="True" HasTextStyleData="False" ElementStyleID="600" HasCustomProperties="True">
+          <BaseRectPoints>
+            <Point X="130" Y="362" />
+            <Point X="520" Y="362" />
+            <Point X="520" Y="392" />
+            <Point X="130" Y="392" />
+          </BaseRectPoints>
+          <FillStyleData VerticalPercentFill="100" HorizontalPercentFill="100">
+            <FillStyle FillType="Solid">
+              <SolidFill>
+                <FillColor R="255" G="255" B="255" A="255" />
+                <Transparency>0</Transparency>
+              </SolidFill>
+            </FillStyle>
+            <UnfilledStyle FillType="Solid">
+              <SolidFill>
+                <FillColor R="0" G="0" B="0" A="255" />
+                <Transparency>0</Transparency>
+              </SolidFill>
+            </UnfilledStyle>
+            <FillBehavior>Both</FillBehavior>
+            <HorizontalDirection>Right</HorizontalDirection>
+            <VerticalDirection>Up</VerticalDirection>
+            <FillOrientation>RelativeToGraphic</FillOrientation>
+          </FillStyleData>
+          <LineStyleData>
+            <LineStyle Weight="1" LinePattern="Solid">
+              <FillStyle FillType="Solid">
+                <SolidFill>
+                  <FillColor R="0" G="0" B="0" A="255" />
+                  <Transparency>0</Transparency>
+                </SolidFill>
+              </FillStyle>
+            </LineStyle>
+          </LineStyleData>
+          <Animations>
+            <Visibility Enabled="true" VisibleState="True">
+              <AnimationExpression>
+                <Discrete Expression="Me.Temperature.Hi.Priority &lt;= 750 and Me.Temperature.Hi.Priority &gt; 500" />
+              </AnimationExpression>
+              <AnimationType>Discrete</AnimationType>
+            </Visibility>
+          </Animations>
+        </Rectangle>
+        <Rectangle Name="Rectangle7" Left="130" Top="392" Width="390" Height="30" LocalLeft="130" LocalTop="420" LocalWidth="390" LocalHeight="30" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="187" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="True" HasLineStyleData="True" HasTextStyleData="False" ElementStyleID="600" HasCustomProperties="True">
+          <BaseRectPoints>
+            <Point X="130" Y="392" />
+            <Point X="520" Y="392" />
+            <Point X="520" Y="422" />
+            <Point X="130" Y="422" />
+          </BaseRectPoints>
+          <FillStyleData VerticalPercentFill="100" HorizontalPercentFill="100">
+            <FillStyle FillType="Solid">
+              <SolidFill>
+                <FillColor R="255" G="255" B="255" A="255" />
+                <Transparency>0</Transparency>
+              </SolidFill>
+            </FillStyle>
+            <UnfilledStyle FillType="Solid">
+              <SolidFill>
+                <FillColor R="0" G="0" B="0" A="255" />
+                <Transparency>0</Transparency>
+              </SolidFill>
+            </UnfilledStyle>
+            <FillBehavior>Both</FillBehavior>
+            <HorizontalDirection>Right</HorizontalDirection>
+            <VerticalDirection>Up</VerticalDirection>
+            <FillOrientation>RelativeToGraphic</FillOrientation>
+          </FillStyleData>
+          <LineStyleData>
+            <LineStyle Weight="1" LinePattern="Solid">
+              <FillStyle FillType="Solid">
+                <SolidFill>
+                  <FillColor R="0" G="0" B="0" A="255" />
+                  <Transparency>0</Transparency>
+                </SolidFill>
+              </FillStyle>
+            </LineStyle>
+          </LineStyleData>
+          <Animations>
+            <Visibility Enabled="true" VisibleState="True">
+              <AnimationExpression>
+                <Discrete Expression="Me.Temperature.Hi.Priority &gt; 750" />
+              </AnimationExpression>
+              <AnimationType>Discrete</AnimationType>
+            </Visibility>
+          </Animations>
+        </Rectangle>
+        <Text Name="Text14" Left="150" Top="308.8003" Width="40.44727" Height="15.60254" LocalLeft="150" LocalTop="336.8003" LocalWidth="40.44727" LocalHeight="15.60254" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="178" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="False" HasLineStyleData="False" HasTextStyleData="True" ElementStyleID="504" HasCustomProperties="True">
+          <BaseRectPoints>
+            <Point X="150" Y="308.8003" />
+            <Point X="190.4473" Y="308.8003" />
+            <Point X="190.4473" Y="324.4028" />
+            <Point X="150" Y="324.4028" />
+          </BaseRectPoints>
+          <TextStyleData Text="Critical" WordWrap="False" ReadingOrder="LeftToRight" Alignment="MiddleLeft" Orientation="0" AutoScale="True" Expandable="True">
+            <TextColor FillType="Solid">
+              <SolidFill>
+                <FillColor R="255" G="255" B="255" A="255" />
+                <Transparency>0</Transparency>
+              </SolidFill>
+            </TextColor>
+            <Font Name="Roboto" Size="10" Bold="false" Italic="false" Strikeout="false" Underline="false" Charset="0" VerticalFont="false" />
+            <TextFormat FormatType="FormatString" FormatString="" />
+          </TextStyleData>
+        </Text>
+        <Text Name="Text15" Left="150" Top="338.8003" Width="26.87598" Height="15.60254" LocalLeft="150" LocalTop="366.8003" LocalWidth="26.87598" LocalHeight="15.60254" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="181" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="False" HasLineStyleData="False" HasTextStyleData="True" ElementStyleID="504" HasCustomProperties="True">
+          <BaseRectPoints>
+            <Point X="150" Y="338.8003" />
+            <Point X="176.876" Y="338.8003" />
+            <Point X="176.876" Y="354.4028" />
+            <Point X="150" Y="354.4028" />
+          </BaseRectPoints>
+          <TextStyleData Text="High" WordWrap="False" ReadingOrder="LeftToRight" Alignment="MiddleLeft" Orientation="0" AutoScale="True" Expandable="True">
+            <TextColor FillType="Solid">
+              <SolidFill>
+                <FillColor R="255" G="255" B="255" A="255" />
+                <Transparency>0</Transparency>
+              </SolidFill>
+            </TextColor>
+            <Font Name="Roboto" Size="10" Bold="false" Italic="false" Strikeout="false" Underline="false" Charset="0" VerticalFont="false" />
+            <TextFormat FormatType="FormatString" FormatString="" />
+          </TextStyleData>
+        </Text>
+        <Text Name="Text16" Left="150" Top="368.8003" Width="47.28369" Height="15.60254" LocalLeft="150" LocalTop="396.8003" LocalWidth="47.28369" LocalHeight="15.60254" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="182" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="False" HasLineStyleData="False" HasTextStyleData="True" ElementStyleID="504" HasCustomProperties="True">
+          <BaseRectPoints>
+            <Point X="150" Y="368.8003" />
+            <Point X="197.2837" Y="368.8003" />
+            <Point X="197.2837" Y="384.4028" />
+            <Point X="150" Y="384.4028" />
+          </BaseRectPoints>
+          <TextStyleData Text="Medium" WordWrap="False" ReadingOrder="LeftToRight" Alignment="MiddleLeft" Orientation="0" AutoScale="True" Expandable="True">
+            <TextColor FillType="Solid">
+              <SolidFill>
+                <FillColor R="255" G="255" B="255" A="255" />
+                <Transparency>0</Transparency>
+              </SolidFill>
+            </TextColor>
+            <Font Name="Roboto" Size="10" Bold="false" Italic="false" Strikeout="false" Underline="false" Charset="0" VerticalFont="false" />
+            <TextFormat FormatType="FormatString" FormatString="" />
+          </TextStyleData>
+        </Text>
+        <Text Name="Text17" Left="150" Top="398.8003" Width="24.17822" Height="15.60254" LocalLeft="150" LocalTop="426.8003" LocalWidth="24.17822" LocalHeight="15.60254" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="183" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="False" HasLineStyleData="False" HasTextStyleData="True" ElementStyleID="504" HasCustomProperties="True">
+          <BaseRectPoints>
+            <Point X="150" Y="398.8003" />
+            <Point X="174.1782" Y="398.8003" />
+            <Point X="174.1782" Y="414.4028" />
+            <Point X="150" Y="414.4028" />
+          </BaseRectPoints>
+          <TextStyleData Text="Low" WordWrap="False" ReadingOrder="LeftToRight" Alignment="MiddleLeft" Orientation="0" AutoScale="True" Expandable="True">
+            <TextColor FillType="Solid">
+              <SolidFill>
+                <FillColor R="255" G="255" B="255" A="255" />
+                <Transparency>0</Transparency>
+              </SolidFill>
+            </TextColor>
+            <Font Name="Roboto" Size="10" Bold="false" Italic="false" Strikeout="false" Underline="false" Charset="0" VerticalFont="false" />
+            <TextFormat FormatType="FormatString" FormatString="" />
+          </TextStyleData>
+        </Text>
+        <Rectangle Name="Rectangle1" Left="130" Top="302" Width="180" Height="30" LocalLeft="130" LocalTop="330" LocalWidth="180" LocalHeight="30" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="189" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="True" HasLineStyleData="True" HasTextStyleData="False" ElementStyleID="0" HasCustomProperties="True">
+          <BaseRectPoints>
+            <Point X="130" Y="302" />
+            <Point X="310" Y="302" />
+            <Point X="310" Y="332" />
+            <Point X="130" Y="332" />
+          </BaseRectPoints>
+          <FillStyleData VerticalPercentFill="100" HorizontalPercentFill="100">
+            <FillStyle FillType="NoFill" />
+            <UnfilledStyle FillType="Solid">
+              <SolidFill>
+                <FillColor R="0" G="0" B="0" A="255" />
+                <Transparency>0</Transparency>
+              </SolidFill>
+            </UnfilledStyle>
+            <FillBehavior>Both</FillBehavior>
+            <HorizontalDirection>Right</HorizontalDirection>
+            <VerticalDirection>Up</VerticalDirection>
+            <FillOrientation>RelativeToGraphic</FillOrientation>
+          </FillStyleData>
+          <LineStyleData>
+            <LineStyle Weight="0" LinePattern="Solid">
+              <FillStyle FillType="Solid">
+                <SolidFill>
+                  <FillColor R="0" G="0" B="0" A="255" />
+                  <Transparency>0</Transparency>
+                </SolidFill>
+              </FillStyle>
+            </LineStyle>
+          </LineStyleData>
+          <Animations>
+            <PushButton Enabled="true">
+              <Analog Reference="Me.Temperature.Hi.Priority">
+                <Send Action="Set" OnRelease="false">
+                  <Value1 Expression="1" />
+                </Send>
+              </Analog>
+            </PushButton>
+          </Animations>
+        </Rectangle>
+        <Rectangle Name="Rectangle8" Left="130" Top="332" Width="180" Height="30" LocalLeft="130" LocalTop="360" LocalWidth="180" LocalHeight="30" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="190" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="True" HasLineStyleData="True" HasTextStyleData="False" ElementStyleID="0" HasCustomProperties="True">
+          <BaseRectPoints>
+            <Point X="130" Y="332" />
+            <Point X="310" Y="332" />
+            <Point X="310" Y="362" />
+            <Point X="130" Y="362" />
+          </BaseRectPoints>
+          <FillStyleData VerticalPercentFill="100" HorizontalPercentFill="100">
+            <FillStyle FillType="NoFill" />
+            <UnfilledStyle FillType="Solid">
+              <SolidFill>
+                <FillColor R="0" G="0" B="0" A="255" />
+                <Transparency>0</Transparency>
+              </SolidFill>
+            </UnfilledStyle>
+            <FillBehavior>Both</FillBehavior>
+            <HorizontalDirection>Right</HorizontalDirection>
+            <VerticalDirection>Up</VerticalDirection>
+            <FillOrientation>RelativeToGraphic</FillOrientation>
+          </FillStyleData>
+          <LineStyleData>
+            <LineStyle Weight="0" LinePattern="Solid">
+              <FillStyle FillType="Solid">
+                <SolidFill>
+                  <FillColor R="0" G="0" B="0" A="255" />
+                  <Transparency>0</Transparency>
+                </SolidFill>
+              </FillStyle>
+            </LineStyle>
+          </LineStyleData>
+          <Animations>
+            <PushButton Enabled="true">
+              <Analog Reference="Me.Temperature.Hi.Priority">
+                <Send Action="Set" OnRelease="false">
+                  <Value1 Expression="251" />
+                </Send>
+              </Analog>
+            </PushButton>
+          </Animations>
+        </Rectangle>
+        <Rectangle Name="Rectangle9" Left="130" Top="362" Width="180" Height="30" LocalLeft="130" LocalTop="390" LocalWidth="180" LocalHeight="30" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="191" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="True" HasLineStyleData="True" HasTextStyleData="False" ElementStyleID="0" HasCustomProperties="True">
+          <BaseRectPoints>
+            <Point X="130" Y="362" />
+            <Point X="310" Y="362" />
+            <Point X="310" Y="392" />
+            <Point X="130" Y="392" />
+          </BaseRectPoints>
+          <FillStyleData VerticalPercentFill="100" HorizontalPercentFill="100">
+            <FillStyle FillType="NoFill" />
+            <UnfilledStyle FillType="Solid">
+              <SolidFill>
+                <FillColor R="0" G="0" B="0" A="255" />
+                <Transparency>0</Transparency>
+              </SolidFill>
+            </UnfilledStyle>
+            <FillBehavior>Both</FillBehavior>
+            <HorizontalDirection>Right</HorizontalDirection>
+            <VerticalDirection>Up</VerticalDirection>
+            <FillOrientation>RelativeToGraphic</FillOrientation>
+          </FillStyleData>
+          <LineStyleData>
+            <LineStyle Weight="0" LinePattern="Solid">
+              <FillStyle FillType="Solid">
+                <SolidFill>
+                  <FillColor R="0" G="0" B="0" A="255" />
+                  <Transparency>0</Transparency>
+                </SolidFill>
+              </FillStyle>
+            </LineStyle>
+          </LineStyleData>
+          <Animations>
+            <PushButton Enabled="true">
+              <Analog Reference="Me.Temperature.Hi.Priority">
+                <Send Action="Set" OnRelease="false">
+                  <Value1 Expression="501" />
+                </Send>
+              </Analog>
+            </PushButton>
+          </Animations>
+        </Rectangle>
+        <Rectangle Name="Rectangle10" Left="130" Top="392" Width="180" Height="30" LocalLeft="130" LocalTop="420" LocalWidth="180" LocalHeight="30" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="192" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="True" HasLineStyleData="True" HasTextStyleData="False" ElementStyleID="0" HasCustomProperties="True">
+          <BaseRectPoints>
+            <Point X="130" Y="392" />
+            <Point X="310" Y="392" />
+            <Point X="310" Y="422" />
+            <Point X="130" Y="422" />
+          </BaseRectPoints>
+          <FillStyleData VerticalPercentFill="100" HorizontalPercentFill="100">
+            <FillStyle FillType="NoFill" />
+            <UnfilledStyle FillType="Solid">
+              <SolidFill>
+                <FillColor R="0" G="0" B="0" A="255" />
+                <Transparency>0</Transparency>
+              </SolidFill>
+            </UnfilledStyle>
+            <FillBehavior>Both</FillBehavior>
+            <HorizontalDirection>Right</HorizontalDirection>
+            <VerticalDirection>Up</VerticalDirection>
+            <FillOrientation>RelativeToGraphic</FillOrientation>
+          </FillStyleData>
+          <LineStyleData>
+            <LineStyle Weight="0" LinePattern="Solid">
+              <FillStyle FillType="Solid">
+                <SolidFill>
+                  <FillColor R="0" G="0" B="0" A="255" />
+                  <Transparency>0</Transparency>
+                </SolidFill>
+              </FillStyle>
+            </LineStyle>
+          </LineStyleData>
+          <Animations>
+            <PushButton Enabled="true">
+              <Analog Reference="Me.Temperature.Hi.Priority">
+                <Send Action="Set" OnRelease="false">
+                  <Value1 Expression="751" />
+                </Send>
+              </Analog>
+            </PushButton>
+          </Animations>
+        </Rectangle>
+      </GraphicElements>
+    </Group>
+    <Polyline Name="PolyLine1" Left="490.6667" Top="278.8889" Width="13.11111" Height="8.888885" LocalLeft="490.6667" LocalTop="278.8889" LocalWidth="13.11111" LocalHeight="8.888885" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="193" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="False" HasLineStyleData="True" HasTextStyleData="False" ElementStyleID="504" HasCustomProperties="False" LineJoinStyle="Round">
+      <LineStyleData StartCap="Round" StartCapSize="XXSmall" EndCap="Round" EndCapSize="XXSmall">
+        <LineStyle Weight="2" LinePattern="Solid">
+          <FillStyle FillType="Solid">
+            <SolidFill>
+              <FillColor R="0" G="0" B="0" A="255" />
+              <Transparency>0</Transparency>
+            </SolidFill>
+          </FillStyle>
+        </LineStyle>
+      </LineStyleData>
+      <Point X="0" Y="0" />
+      <Point X="0.5" Y="1" />
+      <Point X="1" Y="0" />
+    </Polyline>
+    <Rectangle Name="Rectangle2" Left="130" Top="264.4445" Width="390" Height="35.77777" LocalLeft="130" LocalTop="264.4445" LocalWidth="390" LocalHeight="35.77777" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="194" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="True" HasLineStyleData="True" HasTextStyleData="False" ElementStyleID="0" HasCustomProperties="False">
+      <FillStyleData VerticalPercentFill="100" HorizontalPercentFill="100">
+        <FillStyle FillType="NoFill" />
+        <UnfilledStyle FillType="Solid">
+          <SolidFill>
+            <FillColor R="0" G="0" B="0" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </UnfilledStyle>
+        <FillBehavior>Both</FillBehavior>
+        <HorizontalDirection>Right</HorizontalDirection>
+        <VerticalDirection>Up</VerticalDirection>
+        <FillOrientation>RelativeToGraphic</FillOrientation>
+      </FillStyleData>
+      <LineStyleData>
+        <LineStyle Weight="0" LinePattern="Solid">
+          <FillStyle FillType="Solid">
+            <SolidFill>
+              <FillColor R="0" G="0" B="0" A="255" />
+              <Transparency>0</Transparency>
+            </SolidFill>
+          </FillStyle>
+        </LineStyle>
+      </LineStyleData>
+      <Animations>
+        <PushButton Enabled="true">
+          <Discrete Reference="HiHiPrio">
+            <Send Action="Toggle" OnRelease="false" />
+          </Discrete>
+        </PushButton>
+      </Animations>
+    </Rectangle>
+    <Text Name="Text14" Left="130" Top="530" Width="89.27344" Height="15.60254" LocalLeft="130" LocalTop="530" LocalWidth="89.27344" LocalHeight="15.60254" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="195" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="False" HasLineStyleData="False" HasTextStyleData="True" ElementStyleID="504" HasCustomProperties="False">
+      <TextStyleData Text="Shelve duration" WordWrap="False" ReadingOrder="LeftToRight" Alignment="MiddleLeft" Orientation="0" AutoScale="True" Expandable="True">
+        <TextColor FillType="Solid">
+          <SolidFill>
+            <FillColor R="255" G="255" B="255" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </TextColor>
+        <Font Name="Roboto" Size="10" Bold="false" Italic="false" Strikeout="false" Underline="false" Charset="0" VerticalFont="false" />
+        <TextFormat FormatType="FormatString" FormatString="" />
+      </TextStyleData>
+    </Text>
+    <RoundRectangle Name="RoundRectangle19" Left="250" Top="550" Width="270" Height="40" LocalLeft="250" LocalTop="550" LocalWidth="270" LocalHeight="40" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="196" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="True" HasLineStyleData="True" HasTextStyleData="False" ElementStyleID="501" HasCustomProperties="False" Radius="5">
+      <FillStyleData VerticalPercentFill="100" HorizontalPercentFill="100">
+        <FillStyle FillType="Solid">
+          <SolidFill>
+            <FillColor R="255" G="255" B="255" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </FillStyle>
+        <UnfilledStyle FillType="Solid">
+          <SolidFill>
+            <FillColor R="0" G="0" B="0" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </UnfilledStyle>
+        <FillBehavior>Both</FillBehavior>
+        <HorizontalDirection>Right</HorizontalDirection>
+        <VerticalDirection>Up</VerticalDirection>
+        <FillOrientation>RelativeToGraphic</FillOrientation>
+      </FillStyleData>
+      <LineStyleData>
+        <LineStyle Weight="1" LinePattern="Solid">
+          <FillStyle FillType="Solid">
+            <SolidFill>
+              <FillColor R="0" G="0" B="0" A="255" />
+              <Transparency>0</Transparency>
+            </SolidFill>
+          </FillStyle>
+        </LineStyle>
+      </LineStyleData>
+    </RoundRectangle>
+    <RoundRectangle Name="RoundRectangle20" Left="250" Top="550" Width="270" Height="40" LocalLeft="250" LocalTop="550" LocalWidth="270" LocalHeight="40" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="197" Square="False" Transparency="80" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="True" HasLineStyleData="True" HasTextStyleData="False" ElementStyleID="503" HasCustomProperties="False" Radius="5">
+      <BaseRectPoints>
+        <Point X="450" Y="108" />
+        <Point X="520" Y="108" />
+        <Point X="520" Y="138" />
+        <Point X="450" Y="138" />
+      </BaseRectPoints>
+      <FillStyleData VerticalPercentFill="0" HorizontalPercentFill="100">
+        <FillStyle FillType="Solid">
+          <SolidFill>
+            <FillColor R="255" G="255" B="255" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </FillStyle>
+        <UnfilledStyle FillType="NoFill" />
+        <FillBehavior>Both</FillBehavior>
+        <HorizontalDirection>Right</HorizontalDirection>
+        <VerticalDirection>Up</VerticalDirection>
+        <FillOrientation>RelativeToGraphic</FillOrientation>
+      </FillStyleData>
+      <LineStyleData>
+        <LineStyle Weight="2" LinePattern="Solid">
+          <FillStyle FillType="Solid">
+            <SolidFill>
+              <FillColor R="0" G="0" B="0" A="255" />
+              <Transparency>0</Transparency>
+            </SolidFill>
+          </FillStyle>
+        </LineStyle>
+      </LineStyleData>
+    </RoundRectangle>
+    <Text Name="Text15" Left="250" Top="530" Width="96.63037" Height="15.60254" LocalLeft="250" LocalTop="530" LocalWidth="96.63037" LocalHeight="15.60254" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="198" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="False" HasLineStyleData="False" HasTextStyleData="True" ElementStyleID="504" HasCustomProperties="False">
+      <TextStyleData Text="Shelve comment" WordWrap="False" ReadingOrder="LeftToRight" Alignment="MiddleLeft" Orientation="0" AutoScale="True" Expandable="True">
+        <TextColor FillType="Solid">
+          <SolidFill>
+            <FillColor R="255" G="255" B="255" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </TextColor>
+        <Font Name="Roboto" Size="10" Bold="false" Italic="false" Strikeout="false" Underline="false" Charset="0" VerticalFont="false" />
+        <TextFormat FormatType="FormatString" FormatString="" />
+      </TextStyleData>
+    </Text>
+    <Editbox Name="EditBox1" Left="134.8" Top="561.75" Width="60.11206" Height="19.14534" LocalLeft="134.8" LocalTop="561.75" LocalWidth="60.11206" LocalHeight="19.14534" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="199" Square="False" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="True" HasLineStyleData="False" HasTextStyleData="True" ElementStyleID="0" HasCustomProperties="False">
+      <FillStyleData FillColor="21 25 35" />
+      <TextStyleData TextColor="255 255 255">
+        <Font Name="Roboto" Size="10" Bold="false" Italic="false" Strikeout="false" Underline="false" Charset="0" VerticalFont="false" />
+      </TextStyleData>
+      <Control Multiline="false" ReadOnly="false" MaxChars="0" Text="120" />
+      <Bindings>
+        <TextValue Reference="ShelveDuration" SubmitOnTrigger="false" />
+      </Bindings>
+    </Editbox>
+    <Group ChildBaseLeft="135.0973" ChildBaseTop="554.25" ChildBaseWidth="135.6527" ChildBaseHeight="29.24994" PreviousLST="True" PreviousLST0="0.9844878" PreviousLST1="0" PreviousLST2="0" PreviousLST3="0.7632084" PreviousLST4="3.082078" PreviousLST5="135.7511" TreatAsIcon="True" Name="Group2" Left="134.1053" Top="560" Width="61.39473" Height="20" LocalLeft="134.1053" LocalTop="560" LocalWidth="61.39473" LocalHeight="20" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="204" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="True" HasLineStyleData="True" HasTextStyleData="True" ElementStyleID="501" HasCustomProperties="False" LastUsedId="0" Description="" FaceplateMode="False">
+      <FillStyleData VerticalPercentFill="100" HorizontalPercentFill="100">
+        <FillStyle FillType="Solid">
+          <SolidFill>
+            <FillColor R="255" G="255" B="255" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </FillStyle>
+        <UnfilledStyle FillType="Solid">
+          <SolidFill>
+            <FillColor R="0" G="0" B="0" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </UnfilledStyle>
+        <FillBehavior>Both</FillBehavior>
+        <HorizontalDirection>Right</HorizontalDirection>
+        <VerticalDirection>Up</VerticalDirection>
+        <FillOrientation>RelativeToGraphic</FillOrientation>
+      </FillStyleData>
+      <LineStyleData>
+        <LineStyle Weight="1" LinePattern="Solid">
+          <FillStyle FillType="Solid">
+            <SolidFill>
+              <FillColor R="0" G="0" B="0" A="255" />
+              <Transparency>0</Transparency>
+            </SolidFill>
+          </FillStyle>
+        </LineStyle>
+      </LineStyleData>
+      <TextStyleData Text="" WordWrap="True" ReadingOrder="LeftToRight" Alignment="TopLeft" Orientation="0" TextFormat="" AutoScale="False" Expandable="False">
+        <TextColor FillType="Solid">
+          <SolidFill>
+            <FillColor R="0" G="0" B="0" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </TextColor>
+        <TextFormat FormatType="FormatString" FormatString="" />
+      </TextStyleData>
+      <Font Name="Arial" Size="12" Bold="false" Italic="false" Strikeout="false" Underline="false" Charset="0" VerticalFont="false" />
+      <GraphicElements>
+        <Line HVLine="True" Name="Line1" Left="134.1618" Top="562.2222" Width="60.88559" Height="0" LocalLeft="134.2222" LocalTop="552.5999" LocalWidth="136.6474" LocalHeight="0" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="200" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="False" HasLineStyleData="True" HasTextStyleData="False" ElementStyleID="0" HasCustomProperties="False" ControlsPointRatioX0="0" ControlsPointRatioY0="0" ControlsPointRatioX1="1" ControlsPointRatioY1="0" RatioX="0.5" OffSetY="0">
+          <BaseRectPoints>
+            <Point X="134.1618" Y="562.2222" />
+            <Point X="195.0474" Y="562.2222" />
+            <Point X="195.0474" Y="562.2222" />
+            <Point X="134.1618" Y="562.2222" />
+          </BaseRectPoints>
+          <BaseRectLocalPoints>
+            <Point X="134.2222" Y="552.5999" />
+            <Point X="270.8697" Y="552.5999" />
+            <Point X="270.8697" Y="552.5999" />
+            <Point X="134.2222" Y="552.5999" />
+          </BaseRectLocalPoints>
+          <LineStyleData StartCap="Flat" StartCapSize="XXSmall" EndCap="Flat" EndCapSize="XXSmall">
+            <LineStyle Weight="6" LinePattern="Solid">
+              <FillStyle FillType="Solid">
+                <SolidFill>
+                  <FillColor R="0" G="0" B="0" A="255" />
+                  <Transparency>0</Transparency>
+                </SolidFill>
+              </FillStyle>
+            </LineStyle>
+          </LineStyleData>
+          <Start X="134.1618" Y="562.2222" />
+          <End X="195.0474" Y="562.2222" />
+        </Line>
+        <Line HVLine="True" Name="Line2" Left="134.1618" Top="579.9651" Width="61.3382" Height="0" LocalLeft="134.2222" LocalTop="586.5999" LocalWidth="137.6632" LocalHeight="0" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="201" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="False" HasLineStyleData="True" HasTextStyleData="False" ElementStyleID="0" HasCustomProperties="False" ControlsPointRatioX0="0" ControlsPointRatioY0="0" ControlsPointRatioX1="1" ControlsPointRatioY1="0" RatioX="0.5" OffSetY="0">
+          <BaseRectPoints>
+            <Point X="134.1618" Y="579.9651" />
+            <Point X="195.5" Y="579.9651" />
+            <Point X="195.5" Y="579.9651" />
+            <Point X="134.1618" Y="579.9651" />
+          </BaseRectPoints>
+          <BaseRectLocalPoints>
+            <Point X="134.2222" Y="586.5999" />
+            <Point X="271.8854" Y="586.5999" />
+            <Point X="271.8854" Y="586.5999" />
+            <Point X="134.2222" Y="586.5999" />
+          </BaseRectLocalPoints>
+          <LineStyleData StartCap="Flat" StartCapSize="XXSmall" EndCap="Flat" EndCapSize="XXSmall">
+            <LineStyle Weight="6" LinePattern="Solid">
+              <FillStyle FillType="Solid">
+                <SolidFill>
+                  <FillColor R="0" G="0" B="0" A="255" />
+                  <Transparency>0</Transparency>
+                </SolidFill>
+              </FillStyle>
+            </LineStyle>
+          </LineStyleData>
+          <Start X="134.1618" Y="579.9651" />
+          <End X="195.5" Y="579.9651" />
+        </Line>
+        <Line HVLine="True" Name="Line3" Left="134.1053" Top="559.9999" Width="0" Height="20" LocalLeft="134.0953" LocalTop="548.3416" LocalWidth="0" LocalHeight="38.32495" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="202" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="False" HasLineStyleData="True" HasTextStyleData="False" ElementStyleID="0" HasCustomProperties="False" ControlsPointRatioX0="0" ControlsPointRatioY0="1" ControlsPointRatioX1="0" ControlsPointRatioY1="0" RatioX="0.5" OffSetY="0">
+          <BaseRectPoints>
+            <Point X="134.1053" Y="559.9999" />
+            <Point X="134.1053" Y="559.9999" />
+            <Point X="134.1053" Y="579.9999" />
+            <Point X="134.1053" Y="579.9999" />
+          </BaseRectPoints>
+          <BaseRectLocalPoints>
+            <Point X="134.0953" Y="548.3416" />
+            <Point X="134.0953" Y="548.3416" />
+            <Point X="134.0953" Y="586.6666" />
+            <Point X="134.0953" Y="586.6666" />
+          </BaseRectLocalPoints>
+          <LineStyleData StartCap="Flat" StartCapSize="XXSmall" EndCap="Flat" EndCapSize="XXSmall">
+            <LineStyle Weight="6" LinePattern="Solid">
+              <FillStyle FillType="Solid">
+                <SolidFill>
+                  <FillColor R="0" G="0" B="0" A="255" />
+                  <Transparency>0</Transparency>
+                </SolidFill>
+              </FillStyle>
+            </LineStyle>
+          </LineStyleData>
+          <Start X="134.1053" Y="579.9999" />
+          <End X="134.1053" Y="559.9999" />
+        </Line>
+        <Line HVLine="True" Name="Line4" Left="194.4619" Top="561.1965" Width="0" Height="18.80341" LocalLeft="269.5555" LocalTop="550.6345" LocalWidth="0" LocalHeight="36.03204" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="203" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="False" HasLineStyleData="True" HasTextStyleData="False" ElementStyleID="0" HasCustomProperties="False" ControlsPointRatioX0="0" ControlsPointRatioY0="1" ControlsPointRatioX1="0" ControlsPointRatioY1="0" RatioX="0.5" OffSetY="0">
+          <BaseRectPoints>
+            <Point X="194.4619" Y="561.1965" />
+            <Point X="194.4619" Y="561.1965" />
+            <Point X="194.4619" Y="579.9999" />
+            <Point X="194.4619" Y="579.9999" />
+          </BaseRectPoints>
+          <BaseRectLocalPoints>
+            <Point X="269.5555" Y="550.6345" />
+            <Point X="269.5555" Y="550.6345" />
+            <Point X="269.5555" Y="586.6666" />
+            <Point X="269.5555" Y="586.6666" />
+          </BaseRectLocalPoints>
+          <LineStyleData StartCap="Flat" StartCapSize="XXSmall" EndCap="Flat" EndCapSize="XXSmall">
+            <LineStyle Weight="6" LinePattern="Solid">
+              <FillStyle FillType="Solid">
+                <SolidFill>
+                  <FillColor R="0" G="0" B="0" A="255" />
+                  <Transparency>0</Transparency>
+                </SolidFill>
+              </FillStyle>
+            </LineStyle>
+          </LineStyleData>
+          <Start X="194.4619" Y="579.9999" />
+          <End X="194.4619" Y="561.1965" />
+        </Line>
+      </GraphicElements>
+    </Group>
+    <Text Name="Text16" Left="200" Top="562.5455" Width="21.72168" Height="15.60254" LocalLeft="200" LocalTop="562.5455" LocalWidth="21.72168" LocalHeight="15.60254" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="205" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="False" HasLineStyleData="False" HasTextStyleData="True" ElementStyleID="504" HasCustomProperties="False">
+      <TextStyleData Text="min" WordWrap="False" ReadingOrder="LeftToRight" Alignment="TopLeft" Orientation="0" AutoScale="True" Expandable="True">
+        <TextColor FillType="Solid">
+          <SolidFill>
+            <FillColor R="255" G="255" B="255" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </TextColor>
+        <Font Name="Roboto" Size="10" Bold="false" Italic="false" Strikeout="false" Underline="false" Charset="0" VerticalFont="false" />
+        <TextFormat FormatType="FormatString" FormatString="" />
+      </TextStyleData>
+    </Text>
+    <Editbox Name="EditBox2" Left="264.25" Top="561.75" Width="191.1439" Height="23.1731" LocalLeft="264.25" LocalTop="561.75" LocalWidth="191.1439" LocalHeight="23.1731" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="206" Square="False" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="True" HasLineStyleData="False" HasTextStyleData="True" ElementStyleID="0" HasCustomProperties="False">
+      <FillStyleData FillColor="21 25 35" />
+      <TextStyleData TextColor="255 255 255">
+        <Font Name="Roboto" Size="10" Bold="false" Italic="false" Strikeout="false" Underline="false" Charset="0" VerticalFont="false" />
+      </TextStyleData>
+      <Control Multiline="false" ReadOnly="false" MaxChars="0" Text="-" />
+      <Bindings>
+        <TextValue Reference="ShelveComment" SubmitOnTrigger="false" />
+      </Bindings>
+    </Editbox>
+    <Group ChildBaseLeft="135.0973" ChildBaseTop="554.25" ChildBaseWidth="135.6527" ChildBaseHeight="29.24994" PreviousLST="True" PreviousLST0="0.9844878" PreviousLST1="0" PreviousLST2="0" PreviousLST3="0.7632084" PreviousLST4="3.082078" PreviousLST5="135.7511" TreatAsIcon="True" Name="Group3" Left="264.5473" Top="558.1053" Width="192.0681" Height="26.81781" LocalLeft="264.5473" LocalTop="558.1053" LocalWidth="192.0681" LocalHeight="26.81781" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="211" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="True" HasLineStyleData="True" HasTextStyleData="True" ElementStyleID="501" HasCustomProperties="False" LastUsedId="0" Description="" FaceplateMode="False">
+      <FillStyleData VerticalPercentFill="100" HorizontalPercentFill="100">
+        <FillStyle FillType="Solid">
+          <SolidFill>
+            <FillColor R="255" G="255" B="255" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </FillStyle>
+        <UnfilledStyle FillType="Solid">
+          <SolidFill>
+            <FillColor R="0" G="0" B="0" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </UnfilledStyle>
+        <FillBehavior>Both</FillBehavior>
+        <HorizontalDirection>Right</HorizontalDirection>
+        <VerticalDirection>Up</VerticalDirection>
+        <FillOrientation>RelativeToGraphic</FillOrientation>
+      </FillStyleData>
+      <LineStyleData>
+        <LineStyle Weight="1" LinePattern="Solid">
+          <FillStyle FillType="Solid">
+            <SolidFill>
+              <FillColor R="0" G="0" B="0" A="255" />
+              <Transparency>0</Transparency>
+            </SolidFill>
+          </FillStyle>
+        </LineStyle>
+      </LineStyleData>
+      <TextStyleData Text="" WordWrap="True" ReadingOrder="LeftToRight" Alignment="TopLeft" Orientation="0" TextFormat="" AutoScale="False" Expandable="False">
+        <TextColor FillType="Solid">
+          <SolidFill>
+            <FillColor R="0" G="0" B="0" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </TextColor>
+        <TextFormat FormatType="FormatString" FormatString="" />
+      </TextStyleData>
+      <Font Name="Arial" Size="12" Bold="false" Italic="false" Strikeout="false" Underline="false" Charset="0" VerticalFont="false" />
+      <GraphicElements>
+        <Line HVLine="True" Name="Line1" Left="264.7242" Top="561.085" Width="190.4753" Height="0" LocalLeft="134.2222" LocalTop="552.5999" LocalWidth="136.6474" LocalHeight="0" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="207" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="False" HasLineStyleData="True" HasTextStyleData="False" ElementStyleID="0" HasCustomProperties="False" ControlsPointRatioX0="0" ControlsPointRatioY0="0" ControlsPointRatioX1="1" ControlsPointRatioY1="0" RatioX="0.5" OffSetY="0">
+          <BaseRectPoints>
+            <Point X="264.7242" Y="561.085" />
+            <Point X="455.1994" Y="561.085" />
+            <Point X="455.1994" Y="561.085" />
+            <Point X="264.7242" Y="561.085" />
+          </BaseRectPoints>
+          <BaseRectLocalPoints>
+            <Point X="134.2222" Y="552.5999" />
+            <Point X="270.8697" Y="552.5999" />
+            <Point X="270.8697" Y="552.5999" />
+            <Point X="134.2222" Y="552.5999" />
+          </BaseRectLocalPoints>
+          <LineStyleData StartCap="Flat" StartCapSize="XXSmall" EndCap="Flat" EndCapSize="XXSmall">
+            <LineStyle Weight="6" LinePattern="Solid">
+              <FillStyle FillType="Solid">
+                <SolidFill>
+                  <FillColor R="0" G="0" B="0" A="255" />
+                  <Transparency>0</Transparency>
+                </SolidFill>
+              </FillStyle>
+            </LineStyle>
+          </LineStyleData>
+          <Start X="264.7242" Y="561.085" />
+          <End X="455.1994" Y="561.085" />
+        </Line>
+        <Line HVLine="True" Name="Line2" Left="264.7242" Top="584.8764" Width="191.8912" Height="0" LocalLeft="134.2222" LocalTop="586.5999" LocalWidth="137.6632" LocalHeight="0" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="208" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="False" HasLineStyleData="True" HasTextStyleData="False" ElementStyleID="0" HasCustomProperties="False" ControlsPointRatioX0="0" ControlsPointRatioY0="0" ControlsPointRatioX1="1" ControlsPointRatioY1="0" RatioX="0.5" OffSetY="0">
+          <BaseRectPoints>
+            <Point X="264.7242" Y="584.8764" />
+            <Point X="456.6154" Y="584.8764" />
+            <Point X="456.6154" Y="584.8764" />
+            <Point X="264.7242" Y="584.8764" />
+          </BaseRectPoints>
+          <BaseRectLocalPoints>
+            <Point X="134.2222" Y="586.5999" />
+            <Point X="271.8854" Y="586.5999" />
+            <Point X="271.8854" Y="586.5999" />
+            <Point X="134.2222" Y="586.5999" />
+          </BaseRectLocalPoints>
+          <LineStyleData StartCap="Flat" StartCapSize="XXSmall" EndCap="Flat" EndCapSize="XXSmall">
+            <LineStyle Weight="6" LinePattern="Solid">
+              <FillStyle FillType="Solid">
+                <SolidFill>
+                  <FillColor R="0" G="0" B="0" A="255" />
+                  <Transparency>0</Transparency>
+                </SolidFill>
+              </FillStyle>
+            </LineStyle>
+          </LineStyleData>
+          <Start X="264.7242" Y="584.8764" />
+          <End X="456.6154" Y="584.8764" />
+        </Line>
+        <Line HVLine="True" Name="Line3" Left="264.5473" Top="558.1053" Width="0" Height="26.81781" LocalLeft="134.0953" LocalTop="548.3416" LocalWidth="0" LocalHeight="38.32495" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="209" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="False" HasLineStyleData="True" HasTextStyleData="False" ElementStyleID="0" HasCustomProperties="False" ControlsPointRatioX0="0" ControlsPointRatioY0="1" ControlsPointRatioX1="0" ControlsPointRatioY1="0" RatioX="0.5" OffSetY="0">
+          <BaseRectPoints>
+            <Point X="264.5473" Y="558.1053" />
+            <Point X="264.5473" Y="558.1053" />
+            <Point X="264.5473" Y="584.9231" />
+            <Point X="264.5473" Y="584.9231" />
+          </BaseRectPoints>
+          <BaseRectLocalPoints>
+            <Point X="134.0953" Y="548.3416" />
+            <Point X="134.0953" Y="548.3416" />
+            <Point X="134.0953" Y="586.6666" />
+            <Point X="134.0953" Y="586.6666" />
+          </BaseRectLocalPoints>
+          <LineStyleData StartCap="Flat" StartCapSize="XXSmall" EndCap="Flat" EndCapSize="XXSmall">
+            <LineStyle Weight="6" LinePattern="Solid">
+              <FillStyle FillType="Solid">
+                <SolidFill>
+                  <FillColor R="0" G="0" B="0" A="255" />
+                  <Transparency>0</Transparency>
+                </SolidFill>
+              </FillStyle>
+            </LineStyle>
+          </LineStyleData>
+          <Start X="264.5473" Y="584.9231" />
+          <End X="264.5473" Y="558.1053" />
+        </Line>
+        <Line HVLine="True" Name="Line4" Left="453.3676" Top="559.7097" Width="0" Height="25.21338" LocalLeft="269.5555" LocalTop="550.6345" LocalWidth="0" LocalHeight="36.03204" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="210" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="False" HasLineStyleData="True" HasTextStyleData="False" ElementStyleID="0" HasCustomProperties="False" ControlsPointRatioX0="0" ControlsPointRatioY0="1" ControlsPointRatioX1="0" ControlsPointRatioY1="0" RatioX="0.5" OffSetY="0">
+          <BaseRectPoints>
+            <Point X="453.3676" Y="559.7097" />
+            <Point X="453.3676" Y="559.7097" />
+            <Point X="453.3676" Y="584.9231" />
+            <Point X="453.3676" Y="584.9231" />
+          </BaseRectPoints>
+          <BaseRectLocalPoints>
+            <Point X="269.5555" Y="550.6345" />
+            <Point X="269.5555" Y="550.6345" />
+            <Point X="269.5555" Y="586.6666" />
+            <Point X="269.5555" Y="586.6666" />
+          </BaseRectLocalPoints>
+          <LineStyleData StartCap="Flat" StartCapSize="XXSmall" EndCap="Flat" EndCapSize="XXSmall">
+            <LineStyle Weight="6" LinePattern="Solid">
+              <FillStyle FillType="Solid">
+                <SolidFill>
+                  <FillColor R="0" G="0" B="0" A="255" />
+                  <Transparency>0</Transparency>
+                </SolidFill>
+              </FillStyle>
+            </LineStyle>
+          </LineStyleData>
+          <Start X="453.3676" Y="584.9231" />
+          <End X="453.3676" Y="559.7097" />
+        </Line>
+      </GraphicElements>
+    </Group>
+    <RoundRectangle Name="RoundRectangle21" Left="330" Top="610" Width="190" Height="40" LocalLeft="330" LocalTop="610" LocalWidth="190" LocalHeight="40" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="212" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="True" HasLineStyleData="True" HasTextStyleData="False" ElementStyleID="980" HasCustomProperties="False" Radius="5">
+      <FillStyleData VerticalPercentFill="100" HorizontalPercentFill="100">
+        <FillStyle FillType="Solid">
+          <SolidFill>
+            <FillColor R="255" G="255" B="255" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </FillStyle>
+        <UnfilledStyle FillType="Solid">
+          <SolidFill>
+            <FillColor R="0" G="0" B="0" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </UnfilledStyle>
+        <FillBehavior>Both</FillBehavior>
+        <HorizontalDirection>Right</HorizontalDirection>
+        <VerticalDirection>Up</VerticalDirection>
+        <FillOrientation>RelativeToGraphic</FillOrientation>
+      </FillStyleData>
+      <LineStyleData>
+        <LineStyle Weight="1" LinePattern="Solid">
+          <FillStyle FillType="Solid">
+            <SolidFill>
+              <FillColor R="0" G="0" B="0" A="255" />
+              <Transparency>0</Transparency>
+            </SolidFill>
+          </FillStyle>
+        </LineStyle>
+      </LineStyleData>
+      <Animations>
+        <PushButton Enabled="true">
+          <String Reference="Me.Temperature.Hi.AlarmShelveCmd">
+            <Send Action="Set" OnRelease="false">
+              <Value1 Expression="System.String.Format(&quot;Duration={0}; Reason=&quot;&quot;{1}&quot;&quot;;)&quot;,ShelveDuration/60,ShelveComment)" />
+            </Send>
+          </String>
+        </PushButton>
+      </Animations>
+    </RoundRectangle>
+    <Text Name="Text17" Left="390" Top="622" Width="91.45703" Height="15.60254" LocalLeft="390" LocalTop="622" LocalWidth="91.45703" LocalHeight="15.60254" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="213" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="False" HasLineStyleData="False" HasTextStyleData="True" ElementStyleID="960" HasCustomProperties="False">
+      <TextStyleData Text="Shelve Hi Alarm" WordWrap="False" ReadingOrder="LeftToRight" Alignment="MiddleLeft" Orientation="0" AutoScale="True" Expandable="True">
+        <TextColor FillType="Solid">
+          <SolidFill>
+            <FillColor R="255" G="255" B="255" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </TextColor>
+        <Font Name="Roboto" Size="10" Bold="false" Italic="false" Strikeout="false" Underline="false" Charset="0" VerticalFont="false" />
+        <TextFormat FormatType="FormatString" FormatString="" />
+      </TextStyleData>
+    </Text>
+    <Polygon Name="Polygon_1" Left="350" Top="621.0645" Width="19.99997" Height="17.70557" LocalLeft="350" LocalTop="621.0645" LocalWidth="19.99997" LocalHeight="17.70557" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="214" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="True" HasLineStyleData="True" HasTextStyleData="False" ElementStyleID="960" HasCustomProperties="False" LineJoinStyle="Round">
+      <BaseRectPoints>
+        <Point X="350" Y="611.0645" />
+        <Point X="370" Y="611.0645" />
+        <Point X="370" Y="628.77" />
+        <Point X="350" Y="628.77" />
+      </BaseRectPoints>
+      <FillStyleData VerticalPercentFill="100" HorizontalPercentFill="100">
+        <FillStyle FillType="Solid">
+          <SolidFill>
+            <FillColor R="31" G="31" B="31" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </FillStyle>
+        <UnfilledStyle FillType="Solid">
+          <SolidFill>
+            <FillColor R="0" G="0" B="0" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </UnfilledStyle>
+        <FillBehavior>Both</FillBehavior>
+        <HorizontalDirection>Right</HorizontalDirection>
+        <VerticalDirection>Up</VerticalDirection>
+        <FillOrientation>RelativeToGraphic</FillOrientation>
+      </FillStyleData>
+      <LineStyleData>
+        <LineStyle Weight="0" LinePattern="Solid">
+          <FillStyle FillType="Solid">
+            <SolidFill>
+              <FillColor R="0" G="0" B="0" A="255" />
+              <Transparency>0</Transparency>
+            </SolidFill>
+          </FillStyle>
+        </LineStyle>
+      </LineStyleData>
+      <Point X="0.6736497" Y="0.5166413" />
+      <Point X="0.6335282" Y="0.4713207" />
+      <Point X="0.6341769" Y="0.4666819" />
+      <Point X="0.6347091" Y="0.4620822" />
+      <Point X="0.6351249" Y="0.4575217" />
+      <Point X="0.635424" Y="0.4530003" />
+      <Point X="0.6356035" Y="0.4485181" />
+      <Point X="0.6356665" Y="0.4440749" />
+      <Point X="0.635613" Y="0.4396709" />
+      <Point X="0.6354429" Y="0.435306" />
+      <Point X="0.6351532" Y="0.4309803" />
+      <Point X="0.634747" Y="0.4266936" />
+      <Point X="0.6342241" Y="0.4224462" />
+      <Point X="0.6335849" Y="0.4182343" />
+      <Point X="0.6328259" Y="0.414065" />
+      <Point X="0.6319504" Y="0.409935" />
+      <Point X="0.6309584" Y="0.405844" />
+      <Point X="0.6298467" Y="0.4017922" />
+      <Point X="0.6286217" Y="0.3977796" />
+      <Point X="0.627277" Y="0.3938059" />
+      <Point X="0.6258125" Y="0.3898716" />
+      <Point X="0.6242347" Y="0.3859726" />
+      <Point X="0.6225373" Y="0.3821165" />
+      <Point X="0.6207234" Y="0.3782995" />
+      <Point X="0.6187928" Y="0.3745216" />
+      <Point X="0.6167427" Y="0.3707828" />
+      <Point X="0.614576" Y="0.3670832" />
+      <Point X="0.6122928" Y="0.3634191" />
+      <Point X="0.609893" Y="0.3597977" />
+      <Point X="0.6073737" Y="0.3562154" />
+      <Point X="0.6047378" Y="0.3526723" />
+      <Point X="0.6019853" Y="0.3491647" />
+      <Point X="0.5991163" Y="0.3456999" />
+      <Point X="0.5961277" Y="0.3422742" />
+      <Point X="0.5930666" Y="0.3389338" />
+      <Point X="0.5899709" Y="0.3357215" />
+      <Point X="0.5868468" Y="0.3326444" />
+      <Point X="0.5836881" Y="0.3296989" />
+      <Point X="0.5805011" Y="0.3268815" />
+      <Point X="0.5772794" Y="0.3241993" />
+      <Point X="0.5740263" Y="0.3216451" />
+      <Point X="0.5707417" Y="0.3192261" />
+      <Point X="0.5674254" Y="0.3169352" />
+      <Point X="0.5640777" Y="0.3147794" />
+      <Point X="0.5606955" Y="0.3127517" />
+      <Point X="0.5572849" Y="0.3108556" />
+      <Point X="0.5538427" Y="0.3090912" />
+      <Point X="0.550366" Y="0.3074619" />
+      <Point X="0.5468577" Y="0.3059607" />
+      <Point X="0.5433179" Y="0.3045911" />
+      <Point X="0.5397467" Y="0.3033532" />
+      <Point X="0.536144" Y="0.3022469" />
+      <Point X="0.5325097" Y="0.3012722" />
+      <Point X="0.528844" Y="0.300429" />
+      <Point X="0.5251468" Y="0.2997175" />
+      <Point X="0.5214149" Y="0.2991377" />
+      <Point X="0.5176547" Y="0.2986895" />
+      <Point X="0.5138599" Y="0.2983729" />
+      <Point X="0.5100335" Y="0.2981879" />
+      <Point X="0.5061757" Y="0.298131" />
+      <Point X="0.5022864" Y="0.2982092" />
+      <Point X="0.4983656" Y="0.2984191" />
+      <Point X="0.4944133" Y="0.2987571" />
+      <Point X="0.4904295" Y="0.2992302" />
+      <Point X="0.4864142" Y="0.2998314" />
+      <Point X="0.4823642" Y="0.3005678" />
+      <Point X="0.4422428" Y="0.2552471" />
+      <Point X="0.4438332" Y="0.2545214" />
+      <Point X="0.4454361" Y="0.253817" />
+      <Point X="0.4470422" Y="0.2531376" />
+      <Point X="0.448661" Y="0.2524795" />
+      <Point X="0.4502891" Y="0.2518463" />
+      <Point X="0.4519236" Y="0.2512344" />
+      <Point X="0.4535675" Y="0.2506439" />
+      <Point X="0.4552177" Y="0.2500783" />
+      <Point X="0.4568805" Y="0.2495376" />
+      <Point X="0.4585496" Y="0.2490182" />
+      <Point X="0.4602281" Y="0.2485202" />
+      <Point X="0.461913" Y="0.248047" />
+      <Point X="0.4636105" Y="0.2475952" />
+      <Point X="0.4653142" Y="0.2471684" />
+      <Point X="0.4670242" Y="0.2467629" />
+      <Point X="0.4687469" Y="0.2463822" />
+      <Point X="0.4704884" Y="0.2460265" />
+      <Point X="0.4722551" Y="0.2456921" />
+      <Point X="0.4740534" Y="0.2453826" />
+      <Point X="0.4758768" Y="0.2450944" />
+      <Point X="0.4777317" Y="0.2448276" />
+      <Point X="0.4796149" Y="0.2445857" />
+      <Point X="0.4815265" Y="0.2443688" />
+      <Point X="0.4834633" Y="0.2441731" />
+      <Point X="0.4854316" Y="0.2439988" />
+      <Point X="0.4874282" Y="0.2438493" />
+      <Point X="0.4894532" Y="0.2437249" />
+      <Point X="0.4915034" Y="0.2436217" />
+      <Point X="0.493585" Y="0.2435399" />
+      <Point X="0.495695" Y="0.243483" />
+      <Point X="0.4978333" Y="0.2434474" />
+      <Point X="0.5" Y="0.2434367" />
+      <Point X="0.50479" Y="0.2434971" />
+      <Point X="0.509536" Y="0.2436715" />
+      <Point X="0.5142378" Y="0.2439667" />
+      <Point X="0.5188923" Y="0.2443829" />
+      <Point X="0.5234997" Y="0.2449131" />
+      <Point X="0.5280598" Y="0.245564" />
+      <Point X="0.5325759" Y="0.2463324" />
+      <Point X="0.5370478" Y="0.2472182" />
+      <Point X="0.5414725" Y="0.2482213" />
+      <Point X="0.5458499" Y="0.2493419" />
+      <Point X="0.5501833" Y="0.2505834" />
+      <Point X="0.5544694" Y="0.2519423" />
+      <Point X="0.5587115" Y="0.2534187" />
+      <Point X="0.5629063" Y="0.2550123" />
+      <Point X="0.5670539" Y="0.2567234" />
+      <Point X="0.5711573" Y="0.2585554" />
+      <Point X="0.5752167" Y="0.2605049" />
+      <Point X="0.5792257" Y="0.2625717" />
+      <Point X="0.5831938" Y="0.2647559" />
+      <Point X="0.5871114" Y="0.2670611" />
+      <Point X="0.590985" Y="0.26948" />
+      <Point X="0.5948145" Y="0.2720201" />
+      <Point X="0.5985967" Y="0.2746774" />
+      <Point X="0.6023318" Y="0.2774557" />
+      <Point X="0.6060227" Y="0.2803478" />
+      <Point X="0.6096663" Y="0.2833608" />
+      <Point X="0.6132659" Y="0.2864913" />
+      <Point X="0.6168183" Y="0.2897392" />
+      <Point X="0.6203234" Y="0.2931045" />
+      <Point X="0.6237844" Y="0.296587" />
+      <Point X="0.6271982" Y="0.3001907" />
+      <Point X="0.6305679" Y="0.3039117" />
+      <Point X="0.633862" Y="0.307718" />
+      <Point X="0.6370522" Y="0.3115742" />
+      <Point X="0.6401353" Y="0.3154837" />
+      <Point X="0.6431176" Y="0.3194466" />
+      <Point X="0.6459929" Y="0.3234593" />
+      <Point X="0.6487643" Y="0.3275254" />
+      <Point X="0.6514285" Y="0.3316412" />
+      <Point X="0.653992" Y="0.3358104" />
+      <Point X="0.6564484" Y="0.3400295" />
+      <Point X="0.6588009" Y="0.3443018" />
+      <Point X="0.6610495" Y="0.348624" />
+      <Point X="0.6631941" Y="0.3530031" />
+      <Point X="0.6652317" Y="0.3574285" />
+      <Point X="0.6671653" Y="0.3619072" />
+      <Point X="0.6689951" Y="0.3664393" />
+      <Point X="0.6707208" Y="0.3710246" />
+      <Point X="0.6723427" Y="0.3756563" />
+      <Point X="0.6738575" Y="0.380345" />
+      <Point X="0.6752715" Y="0.3850833" />
+      <Point X="0.6765784" Y="0.3898751" />
+      <Point X="0.6777783" Y="0.3947167" />
+      <Point X="0.6788774" Y="0.399608" />
+      <Point X="0.6798694" Y="0.4045562" />
+      <Point X="0.6807606" Y="0.4095543" />
+      <Point X="0.6815448" Y="0.4146022" />
+      <Point X="0.6822219" Y="0.4197035" />
+      <Point X="0.6827981" Y="0.4248581" />
+      <Point X="0.6832675" Y="0.4300625" />
+      <Point X="0.6836359" Y="0.4353167" />
+      <Point X="0.6838973" Y="0.4406278" />
+      <Point X="0.6840516" Y="0.4459888" />
+      <Point X="0.6841052" Y="0.4513995" />
+      <Point X="0.6840957" Y="0.4538505" />
+      <Point X="0.6840641" Y="0.4562802" />
+      <Point X="0.6840138" Y="0.458685" />
+      <Point X="0.6839414" Y="0.4610648" />
+      <Point X="0.68385" Y="0.4634233" />
+      <Point X="0.6837398" Y="0.465757" />
+      <Point X="0.6836075" Y="0.4680657" />
+      <Point X="0.6834533" Y="0.4703531" />
+      <Point X="0.68328" Y="0.4726156" />
+      <Point X="0.6830879" Y="0.4748567" />
+      <Point X="0.6828738" Y="0.4770729" />
+      <Point X="0.6826376" Y="0.4792642" />
+      <Point X="0.6823825" Y="0.4814342" />
+      <Point X="0.6821085" Y="0.4835793" />
+      <Point X="0.6818125" Y="0.4856995" />
+      <Point X="0.6814976" Y="0.4877983" />
+      <Point X="0.6811606" Y="0.4898687" />
+      <Point X="0.6808016" Y="0.4918999" />
+      <Point X="0.6804237" Y="0.4938992" />
+      <Point X="0.6800269" Y="0.4958593" />
+      <Point X="0.679608" Y="0.4977874" />
+      <Point X="0.6791672" Y="0.4996799" />
+      <Point X="0.6787073" Y="0.5015332" />
+      <Point X="0.6782255" Y="0.5033546" />
+      <Point X="0.6777248" Y="0.5051404" />
+      <Point X="0.6772051" Y="0.5068907" />
+      <Point X="0.6766635" Y="0.5086052" />
+      <Point X="0.6760998" Y="0.5102808" />
+      <Point X="0.6755203" Y="0.5119243" />
+      <Point X="0.6749157" Y="0.5135322" />
+      <Point X="0.6742921" Y="0.5151045" />
+      <Point X="0.6736497" Y="0.5166413" />
+      <Point X="0.6736497" Y="0.5166413" />
+      <Point X="0.8329512" Y="0.6915492" />
+      <Point X="0.7947698" Y="0.653457" />
+      <Point X="0.8007124" Y="0.6482669" />
+      <Point X="0.80657" Y="0.6430198" />
+      <Point X="0.8123457" Y="0.6377087" />
+      <Point X="0.8180364" Y="0.632337" />
+      <Point X="0.8236421" Y="0.6269015" />
+      <Point X="0.8291659" Y="0.6214089" />
+      <Point X="0.8346078" Y="0.6158523" />
+      <Point X="0.8399646" Y="0.6102353" />
+      <Point X="0.8452365" Y="0.6045578" />
+      <Point X="0.8504233" Y="0.5988198" />
+      <Point X="0.8555283" Y="0.5930177" />
+      <Point X="0.8605513" Y="0.5871587" />
+      <Point X="0.8654893" Y="0.5812357" />
+      <Point X="0.8703423" Y="0.5752523" />
+      <Point X="0.8751134" Y="0.5692048" />
+      <Point X="0.8797995" Y="0.5631003" />
+      <Point X="0.8844037" Y="0.5569106" />
+      <Point X="0.8889229" Y="0.5506176" />
+      <Point X="0.8933602" Y="0.5442144" />
+      <Point X="0.8977125" Y="0.5377115" />
+      <Point X="0.9019796" Y="0.5310984" />
+      <Point X="0.906165" Y="0.5243822" />
+      <Point X="0.9102653" Y="0.5175591" />
+      <Point X="0.9142838" Y="0.5106294" />
+      <Point X="0.9182172" Y="0.5035965" />
+      <Point X="0.9220687" Y="0.4964569" />
+      <Point X="0.9258352" Y="0.4892106" />
+      <Point X="0.9295199" Y="0.4818611" />
+      <Point X="0.9331163" Y="0.4744049" />
+      <Point X="0.936634" Y="0.466842" />
+      <Point X="0.9400667" Y="0.4591723" />
+      <Point X="0.9434143" Y="0.4513995" />
+      <Point X="0.9394243" Y="0.4424741" />
+      <Point X="0.9353271" Y="0.4336661" />
+      <Point X="0.9311228" Y="0.4249719" />
+      <Point X="0.9268115" Y="0.4163916" />
+      <Point X="0.9223931" Y="0.4079286" />
+      <Point X="0.9178677" Y="0.3995831" />
+      <Point X="0.9132382" Y="0.3913514" />
+      <Point X="0.9084986" Y="0.3832335" />
+      <Point X="0.9036519" Y="0.3752294" />
+      <Point X="0.8986982" Y="0.3673428" />
+      <Point X="0.8936373" Y="0.3595735" />
+      <Point X="0.8884694" Y="0.3519181" />
+      <Point X="0.8831975" Y="0.3443766" />
+      <Point X="0.8778154" Y="0.3369524" />
+      <Point X="0.8723263" Y="0.329642" />
+      <Point X="0.8667301" Y="0.3224455" />
+      <Point X="0.86103" Y="0.3153663" />
+      <Point X="0.8552196" Y="0.3084047" />
+      <Point X="0.8493022" Y="0.3015532" />
+      <Point X="0.8432808" Y="0.2948226" />
+      <Point X="0.8371492" Y="0.2882024" />
+      <Point X="0.8309106" Y="0.2816996" />
+      <Point X="0.8245648" Y="0.2753142" />
+      <Point X="0.8181152" Y="0.2690425" />
+      <Point X="0.8115553" Y="0.2628847" />
+      <Point X="0.8048915" Y="0.2568443" />
+      <Point X="0.7981175" Y="0.2509178" />
+      <Point X="0.7912363" Y="0.2451051" />
+      <Point X="0.7842513" Y="0.2394098" />
+      <Point X="0.777156" Y="0.2338319" />
+      <Point X="0.7699568" Y="0.2283678" />
+      <Point X="0.7626474" Y="0.2230175" />
+      <Point X="0.7552593" Y="0.2178095" />
+      <Point X="0.7478176" Y="0.2127652" />
+      <Point X="0.7403256" Y="0.2078881" />
+      <Point X="0.73278" Y="0.2031746" />
+      <Point X="0.7251808" Y="0.1986283" />
+      <Point X="0.7175281" Y="0.1942456" />
+      <Point X="0.7098219" Y="0.1900302" />
+      <Point X="0.7020653" Y="0.1859784" />
+      <Point X="0.694252" Y="0.1820902" />
+      <Point X="0.6863884" Y="0.1783728" />
+      <Point X="0.6784742" Y="0.1748154" />
+      <Point X="0.6705036" Y="0.1714253" />
+      <Point X="0.6624793" Y="0.1682023" />
+      <Point X="0.6544046" Y="0.165143" />
+      <Point X="0.6462764" Y="0.1622473" />
+      <Point X="0.6380946" Y="0.1595188" />
+      <Point X="0.6298625" Y="0.1569575" />
+      <Point X="0.6215736" Y="0.1545599" />
+      <Point X="0.6132344" Y="0.1523259" />
+      <Point X="0.6048417" Y="0.150259" />
+      <Point X="0.5963954" Y="0.1483558" />
+      <Point X="0.5878956" Y="0.1466199" />
+      <Point X="0.5793454" Y="0.145051" />
+      <Point X="0.5707417" Y="0.1436459" />
+      <Point X="0.5620843" Y="0.1424044" />
+      <Point X="0.5533735" Y="0.14133" />
+      <Point X="0.5446091" Y="0.1404194" />
+      <Point X="0.5357944" Y="0.1396759" />
+      <Point X="0.5269229" Y="0.139096" />
+      <Point X="0.5180011" Y="0.1386834" />
+      <Point X="0.5090289" Y="0.1384344" />
+      <Point X="0.5" Y="0.1383526" />
+      <Point X="0.4908861" Y="0.1384415" />
+      <Point X="0.4818131" Y="0.1387083" />
+      <Point X="0.4727779" Y="0.139153" />
+      <Point X="0.4637837" Y="0.1397755" />
+      <Point X="0.4548272" Y="0.1405759" />
+      <Point X="0.4459117" Y="0.1415542" />
+      <Point X="0.437034" Y="0.1427103" />
+      <Point X="0.4281971" Y="0.1440443" />
+      <Point X="0.4193982" Y="0.1455562" />
+      <Point X="0.4106401" Y="0.147246" />
+      <Point X="0.401923" Y="0.1491136" />
+      <Point X="0.3932405" Y="0.151159" />
+      <Point X="0.3845989" Y="0.1533824" />
+      <Point X="0.3759983" Y="0.1557836" />
+      <Point X="0.3674355" Y="0.1583627" />
+      <Point X="0.3589137" Y="0.1611196" />
+      <Point X="0.3195733" Y="0.1166811" />
+      <Point X="0.3250687" Y="0.1143831" />
+      <Point X="0.3305736" Y="0.1121669" />
+      <Point X="0.336091" Y="0.1100325" />
+      <Point X="0.3416211" Y="0.1079799" />
+      <Point X="0.3471638" Y="0.1060091" />
+      <Point X="0.3527159" Y="0.1041166" />
+      <Point X="0.3582807" Y="0.1023095" />
+      <Point X="0.3638611" Y="0.1005841" />
+      <Point X="0.3694479" Y="0.0989371" />
+      <Point X="0.3750504" Y="0.09737191" />
+      <Point X="0.3806655" Y="0.09589199" />
+      <Point X="0.3862901" Y="0.09449042" />
+      <Point X="0.3919272" Y="0.09317065" />
+      <Point X="0.397577" Y="0.0919327" />
+      <Point X="0.4032393" Y="0.09077656" />
+      <Point X="0.4089111" Y="0.08970223" />
+      <Point X="0.4145924" Y="0.0887026" />
+      <Point X="0.4202768" Y="0.0877635" />
+      <Point X="0.4259612" Y="0.08689187" />
+      <Point X="0.4316487" Y="0.08608434" />
+      <Point X="0.4373363" Y="0.08534448" />
+      <Point X="0.4430269" Y="0.08466496" />
+      <Point X="0.4487177" Y="0.08404955" />
+      <Point X="0.4544083" Y="0.08350179" />
+      <Point X="0.4601022" Y="0.08301795" />
+      <Point X="0.4657992" Y="0.08259821" />
+      <Point X="0.4714962" Y="0.08224247" />
+      <Point X="0.4771932" Y="0.08195075" />
+      <Point X="0.4828933" Y="0.08172659" />
+      <Point X="0.4885935" Y="0.08156297" />
+      <Point X="0.4942967" Y="0.08146691" />
+      <Point X="0.5" Y="0.08143495" />
+      <Point X="0.5102257" Y="0.08153456" />
+      <Point X="0.5203977" Y="0.08183333" />
+      <Point X="0.5305131" Y="0.08233141" />
+      <Point X="0.540575" Y="0.08302508" />
+      <Point X="0.5505833" Y="0.08392154" />
+      <Point X="0.5605348" Y="0.08501714" />
+      <Point X="0.570433" Y="0.0863085" />
+      <Point X="0.5802744" Y="0.08780257" />
+      <Point X="0.5900622" Y="0.08949231" />
+      <Point X="0.5997966" Y="0.09138129" />
+      <Point X="0.6094774" Y="0.09346941" />
+      <Point X="0.6191015" Y="0.09575685" />
+      <Point X="0.6286689" Y="0.09824344" />
+      <Point X="0.6381859" Y="0.1009293" />
+      <Point X="0.6476431" Y="0.1038142" />
+      <Point X="0.65705" Y="0.1068984" />
+      <Point X="0.6664001" Y="0.1101819" />
+      <Point X="0.6756967" Y="0.1136609" />
+      <Point X="0.6849365" Y="0.1173428" />
+      <Point X="0.6941261" Y="0.1212203" />
+      <Point X="0.7032558" Y="0.1253007" />
+      <Point X="0.712335" Y="0.1295765" />
+      <Point X="0.7213576" Y="0.1340517" />
+      <Point X="0.7303236" Y="0.1387297" />
+      <Point X="0.7392391" Y="0.1436032" />
+      <Point X="0.7480947" Y="0.148676" />
+      <Point X="0.7569" Y="0.1539479" />
+      <Point X="0.7656487" Y="0.1594156" />
+      <Point X="0.7743438" Y="0.165086" />
+      <Point X="0.7829821" Y="0.1709557" />
+      <Point X="0.791567" Y="0.177021" />
+      <Point X="0.8000984" Y="0.183289" />
+      <Point X="0.8085319" Y="0.1897171" />
+      <Point X="0.8168208" Y="0.1962698" />
+      <Point X="0.8249742" Y="0.2029505" />
+      <Point X="0.8329828" Y="0.2097557" />
+      <Point X="0.8408496" Y="0.216689" />
+      <Point X="0.8485779" Y="0.2237433" />
+      <Point X="0.8561643" Y="0.2309291" />
+      <Point X="0.8636093" Y="0.2382359" />
+      <Point X="0.8709155" Y="0.2456707" />
+      <Point X="0.8780769" Y="0.2532337" />
+      <Point X="0.8850997" Y="0.2609176" />
+      <Point X="0.8919808" Y="0.2687295" />
+      <Point X="0.8987234" Y="0.2766694" />
+      <Point X="0.905321" Y="0.284734" />
+      <Point X="0.9117801" Y="0.2929231" />
+      <Point X="0.9180976" Y="0.3012365" />
+      <Point X="0.9242732" Y="0.3096781" />
+      <Point X="0.9303104" Y="0.3182442" />
+      <Point X="0.9362057" Y="0.3269384" />
+      <Point X="0.9419563" Y="0.3357571" />
+      <Point X="0.9475713" Y="0.3447038" />
+      <Point X="0.9530416" Y="0.3537715" />
+      <Point X="0.9583732" Y="0.3629708" />
+      <Point X="0.96356" Y="0.3722911" />
+      <Point X="0.9686083" Y="0.3817394" />
+      <Point X="0.973518" Y="0.3913122" />
+      <Point X="0.9782828" Y="0.4010131" />
+      <Point X="0.9829091" Y="0.4108386" />
+      <Point X="0.9873937" Y="0.4207885" />
+      <Point X="0.9917364" Y="0.4308665" />
+      <Point X="0.9959375" Y="0.4410689" />
+      <Point X="1" Y="0.4513995" />
+      <Point X="0.9965642" Y="0.4599478" />
+      <Point X="0.9930182" Y="0.4684286" />
+      <Point X="0.9893588" Y="0.4768453" />
+      <Point X="0.985586" Y="0.4851979" />
+      <Point X="0.9816998" Y="0.4934865" />
+      <Point X="0.9777034" Y="0.5017076" />
+      <Point X="0.9735936" Y="0.5098681" />
+      <Point X="0.9693705" Y="0.5179611" />
+      <Point X="0.9650371" Y="0.52599" />
+      <Point X="0.9605904" Y="0.5339549" />
+      <Point X="0.9560302" Y="0.5418559" />
+      <Point X="0.9513599" Y="0.5496927" />
+      <Point X="0.946573" Y="0.5574619" />
+      <Point X="0.9416791" Y="0.5651706" />
+      <Point X="0.9366687" Y="0.5728118" />
+      <Point X="0.931548" Y="0.5803891" />
+      <Point X="0.9263076" Y="0.5878986" />
+      <Point X="0.9209445" Y="0.5953335" />
+      <Point X="0.9154584" Y="0.6026936" />
+      <Point X="0.9098497" Y="0.6099792" />
+      <Point X="0.904118" Y="0.6171863" />
+      <Point X="0.8982636" Y="0.6243224" />
+      <Point X="0.8922863" Y="0.6313837" />
+      <Point X="0.8861862" Y="0.6383668" />
+      <Point X="0.8799601" Y="0.6452788" />
+      <Point X="0.8736144" Y="0.6521124" />
+      <Point X="0.8671458" Y="0.6588714" />
+      <Point X="0.8605513" Y="0.6655592" />
+      <Point X="0.8538371" Y="0.6721688" />
+      <Point X="0.846997" Y="0.6787036" />
+      <Point X="0.840037" Y="0.6851637" />
+      <Point X="0.8329512" Y="0.6915492" />
+      <Point X="0.6736497" Y="0.5166413" />
+      <Point X="0.8891464" Y="1" />
+      <Point X="0.6930239" Y="0.7791169" />
+      <Point X="0.6887817" Y="0.7811945" />
+      <Point X="0.6844138" Y="0.7832434" />
+      <Point X="0.6799198" Y="0.7852569" />
+      <Point X="0.6752999" Y="0.787242" />
+      <Point X="0.6705539" Y="0.7891949" />
+      <Point X="0.665682" Y="0.7911159" />
+      <Point X="0.6606842" Y="0.7930084" />
+      <Point X="0.6555603" Y="0.7948654" />
+      <Point X="0.6503105" Y="0.7966938" />
+      <Point X="0.6449348" Y="0.7984903" />
+      <Point X="0.639433" Y="0.8002547" />
+      <Point X="0.6338053" Y="0.8019907" />
+      <Point X="0.6280516" Y="0.8036947" />
+      <Point X="0.6221721" Y="0.8053667" />
+      <Point X="0.6161664" Y="0.8070067" />
+      <Point X="0.6100348" Y="0.8086145" />
+      <Point X="0.6037961" Y="0.8101584" />
+      <Point X="0.5974724" Y="0.8116027" />
+      <Point X="0.5910637" Y="0.8129473" />
+      <Point X="0.5845699" Y="0.8141924" />
+      <Point X="0.5779912" Y="0.815338" />
+      <Point X="0.5713273" Y="0.8163838" />
+      <Point X="0.5645754" Y="0.81733" />
+      <Point X="0.5577415" Y="0.8181767" />
+      <Point X="0.5508226" Y="0.8189238" />
+      <Point X="0.5438187" Y="0.8195711" />
+      <Point X="0.5367266" Y="0.820119" />
+      <Point X="0.5295526" Y="0.8205673" />
+      <Point X="0.5222904" Y="0.8209158" />
+      <Point X="0.5149463" Y="0.8211648" />
+      <Point X="0.5075141" Y="0.8213142" />
+      <Point X="0.5" Y="0.821364" />
+      <Point X="0.4897146" Y="0.8212644" />
+      <Point X="0.479489" Y="0.8209656" />
+      <Point X="0.4693232" Y="0.8204676" />
+      <Point X="0.4592141" Y="0.8197739" />
+      <Point X="0.4491617" Y="0.8188775" />
+      <Point X="0.4391691" Y="0.8177818" />
+      <Point X="0.4292364" Y="0.8164905" />
+      <Point X="0.4193604" Y="0.8149999" />
+      <Point X="0.4095441" Y="0.8133067" />
+      <Point X="0.3997878" Y="0.8114177" />
+      <Point X="0.3900881" Y="0.8093295" />
+      <Point X="0.3804451" Y="0.8070422" />
+      <Point X="0.3708619" Y="0.8045556" />
+      <Point X="0.3613386" Y="0.8018698" />
+      <Point X="0.3518719" Y="0.7989847" />
+      <Point X="0.3424651" Y="0.7959005" />
+      <Point X="0.3331182" Y="0.7926171" />
+      <Point X="0.3238279" Y="0.789138" />
+      <Point X="0.3145943" Y="0.7854562" />
+      <Point X="0.3054205" Y="0.7815786" />
+      <Point X="0.2963066" Y="0.7774984" />
+      <Point X="0.2872494" Y="0.7732224" />
+      <Point X="0.2782519" Y="0.7687472" />
+      <Point X="0.2693112" Y="0.7640729" />
+      <Point X="0.2604303" Y="0.7591958" />
+      <Point X="0.2516093" Y="0.754123" />
+      <Point X="0.2428449" Y="0.748851" />
+      <Point X="0.2341404" Y="0.7433834" />
+      <Point X="0.2254926" Y="0.737713" />
+      <Point X="0.2169046" Y="0.7318434" />
+      <Point X="0.2083732" Y="0.725778" />
+      <Point X="0.1999018" Y="0.71951" />
+      <Point X="0.1915279" Y="0.7130818" />
+      <Point X="0.1832926" Y="0.7065292" />
+      <Point X="0.1751927" Y="0.6998485" />
+      <Point X="0.1672315" Y="0.6930433" />
+      <Point X="0.1594055" Y="0.6861135" />
+      <Point X="0.1517182" Y="0.6790558" />
+      <Point X="0.1441695" Y="0.6718735" />
+      <Point X="0.1367562" Y="0.6645631" />
+      <Point X="0.1294782" Y="0.6571282" />
+      <Point X="0.1223389" Y="0.6495689" />
+      <Point X="0.1153381" Y="0.6418815" />
+      <Point X="0.1084727" Y="0.6340695" />
+      <Point X="0.1017459" Y="0.626133" />
+      <Point X="0.09515773" Y="0.6180686" />
+      <Point X="0.0887049" Y="0.6098795" />
+      <Point X="0.08238751" Y="0.6015625" />
+      <Point X="0.07621183" Y="0.5931209" />
+      <Point X="0.07016842" Y="0.5845547" />
+      <Point X="0.06426673" Y="0.5758606" />
+      <Point X="0.0584973" Y="0.5670419" />
+      <Point X="0.0528696" Y="0.5580987" />
+      <Point X="0.04737731" Y="0.5490274" />
+      <Point X="0.04202044" Y="0.5398316" />
+      <Point X="0.03680213" Y="0.5305079" />
+      <Point X="0.03172239" Y="0.5210596" />
+      <Point X="0.02677807" Y="0.5114868" />
+      <Point X="0.02197231" Y="0.5017858" />
+      <Point X="0.01730513" Y="0.4919604" />
+      <Point X="0.01277336" Y="0.4820105" />
+      <Point X="0.008377006" Y="0.4719325" />
+      <Point X="0.004119214" Y="0.4617301" />
+      <Point X="0" Y="0.4513995" />
+      <Point X="0.00374131" Y="0.4420117" />
+      <Point X="0.007630635" Y="0.4326949" />
+      <Point X="0.01166482" Y="0.4234565" />
+      <Point X="0.01584703" Y="0.4142892" />
+      <Point X="0.02017409" Y="0.4052002" />
+      <Point X="0.02464603" Y="0.3961859" />
+      <Point X="0.02926597" Y="0.3872462" />
+      <Point X="0.03403079" Y="0.3783777" />
+      <Point X="0.03894362" Y="0.3695875" />
+      <Point X="0.04400131" Y="0.360872" />
+      <Point X="0.04920702" Y="0.3522312" />
+      <Point X="0.0545576" Y="0.3436615" />
+      <Point X="0.06005303" Y="0.3351702" />
+      <Point X="0.06569648" Y="0.3267534" />
+      <Point X="0.0714848" Y="0.3184114" />
+      <Point X="0.07742115" Y="0.3101442" />
+      <Point X="0.08345511" Y="0.3019979" />
+      <Point X="0.0895363" Y="0.2940151" />
+      <Point X="0.09567106" Y="0.2861996" />
+      <Point X="0.1018562" Y="0.2785513" />
+      <Point X="0.1080917" Y="0.2710631" />
+      <Point X="0.1143807" Y="0.2637457" />
+      <Point X="0.120717" Y="0.2565918" />
+      <Point X="0.1271037" Y="0.2496016" />
+      <Point X="0.1335439" Y="0.2427786" />
+      <Point X="0.1400345" Y="0.2361228" />
+      <Point X="0.1465724" Y="0.2296306" />
+      <Point X="0.1531637" Y="0.2233021" />
+      <Point X="0.1598055" Y="0.2171408" />
+      <Point X="0.1664977" Y="0.2111466" />
+      <Point X="0.1732434" Y="0.2053162" />
+      <Point X="0.1800363" Y="0.1996528" />
+      <Point X="0.03952938" Y="0.04028353" />
+      <Point X="0.07519148" Y="0" />
+      <Point X="0.9248086" Y="0.9597166" />
+      <Point X="0.8891464" Y="1" />
+      <Point X="0.6736497" Y="0.5166413" />
+      <Point X="0.2156984" Y="0.2399221" />
+      <Point X="0.2102754" Y="0.2443617" />
+      <Point X="0.2048398" Y="0.2489684" />
+      <Point X="0.1993853" Y="0.2537495" />
+      <Point X="0.1939182" Y="0.2587013" />
+      <Point X="0.1884353" Y="0.2638204" />
+      <Point X="0.1829368" Y="0.2691136" />
+      <Point X="0.1774256" Y="0.2745778" />
+      <Point X="0.1718955" Y="0.2802091" />
+      <Point X="0.1663528" Y="0.2860146" />
+      <Point X="0.1607944" Y="0.291991" />
+      <Point X="0.1552234" Y="0.2981381" />
+      <Point X="0.1496334" Y="0.3044524" />
+      <Point X="0.1440309" Y="0.310941" />
+      <Point X="0.1384127" Y="0.3176004" />
+      <Point X="0.1327786" Y="0.3244305" />
+      <Point X="0.1271289" Y="0.3314314" />
+      <Point X="0.1215516" Y="0.3385461" />
+      <Point X="0.1161286" Y="0.3457105" />
+      <Point X="0.110863" Y="0.3529249" />
+      <Point X="0.1057518" Y="0.3601925" />
+      <Point X="0.100798" Y="0.3675136" />
+      <Point X="0.09599857" Y="0.3748809" />
+      <Point X="0.09135658" Y="0.3823051" />
+      <Point X="0.0868689" Y="0.3897755" />
+      <Point X="0.08253868" Y="0.3972993" />
+      <Point X="0.07836277" Y="0.4048729" />
+      <Point X="0.07434433" Y="0.4124998" />
+      <Point X="0.07048019" Y="0.4201766" />
+      <Point X="0.06677354" Y="0.4279068" />
+      <Point X="0.06322118" Y="0.4356867" />
+      <Point X="0.0598263" Y="0.4435164" />
+      <Point X="0.05658571" Y="0.4513995" />
+      <Point X="0.06057582" Y="0.4603249" />
+      <Point X="0.06467298" Y="0.4691329" />
+      <Point X="0.06887724" Y="0.4778271" />
+      <Point X="0.07318856" Y="0.4864074" />
+      <Point X="0.07760695" Y="0.4948703" />
+      <Point X="0.08213241" Y="0.5032194" />
+      <Point X="0.08676497" Y="0.5114511" />
+      <Point X="0.09150459" Y="0.519569" />
+      <Point X="0.09635129" Y="0.5275695" />
+      <Point X="0.1013051" Y="0.5354562" />
+      <Point X="0.1063627" Y="0.543229" />
+      <Point X="0.1115307" Y="0.5508845" />
+      <Point X="0.1168057" Y="0.558426" />
+      <Point X="0.1221877" Y="0.5658502" />
+      <Point X="0.1276769" Y="0.5731605" />
+      <Point X="0.1332699" Y="0.5803571" />
+      <Point X="0.1389732" Y="0.5874363" />
+      <Point X="0.1447836" Y="0.5943979" />
+      <Point X="0.150701" Y="0.6012458" />
+      <Point X="0.1567224" Y="0.60798" />
+      <Point X="0.162854" Y="0.6145965" />
+      <Point X="0.1690926" Y="0.6210994" />
+      <Point X="0.1754352" Y="0.6274884" />
+      <Point X="0.181888" Y="0.63376" />
+      <Point X="0.1884448" Y="0.6399178" />
+      <Point X="0.1951118" Y="0.6459581" />
+      <Point X="0.2018826" Y="0.6518811" />
+      <Point X="0.2087637" Y="0.6576939" />
+      <Point X="0.2157519" Y="0.6633891" />
+      <Point X="0.222844" Y="0.6689672" />
+      <Point X="0.2300464" Y="0.6744312" />
+      <Point X="0.2373526" Y="0.6797815" />
+      <Point X="0.2447408" Y="0.6849895" />
+      <Point X="0.2521825" Y="0.6900337" />
+      <Point X="0.2596745" Y="0.6949109" />
+      <Point X="0.2672232" Y="0.6996243" />
+      <Point X="0.2748224" Y="0.7041742" />
+      <Point X="0.2824751" Y="0.7085533" />
+      <Point X="0.2901781" Y="0.7127724" />
+      <Point X="0.2979379" Y="0.7168241" />
+      <Point X="0.305748" Y="0.7207087" />
+      <Point X="0.3136117" Y="0.7244298" />
+      <Point X="0.3215289" Y="0.7279836" />
+      <Point X="0.3294997" Y="0.7313737" />
+      <Point X="0.3375208" Y="0.7346003" />
+      <Point X="0.3455986" Y="0.7376596" />
+      <Point X="0.3537268" Y="0.7405518" />
+      <Point X="0.3619086" Y="0.7432802" />
+      <Point X="0.3701407" Y="0.745845" />
+      <Point X="0.3784295" Y="0.7482427" />
+      <Point X="0.3867688" Y="0.7504731" />
+      <Point X="0.3951615" Y="0.7525399" />
+      <Point X="0.4036078" Y="0.7544431" />
+      <Point X="0.4121045" Y="0.7561792" />
+      <Point X="0.4206578" Y="0.7577479" />
+      <Point X="0.4292616" Y="0.7591566" />
+      <Point X="0.4379189" Y="0.7603946" />
+      <Point X="0.4466297" Y="0.7614689" />
+      <Point X="0.4553909" Y="0.7623796" />
+      <Point X="0.4642088" Y="0.763123" />
+      <Point X="0.4730771" Y="0.7637029" />
+      <Point X="0.4819989" Y="0.7641156" />
+      <Point X="0.4909711" Y="0.7643647" />
+      <Point X="0.5" Y="0.7644464" />
+      <Point X="0.5054545" Y="0.7644073" />
+      <Point X="0.5109122" Y="0.7642971" />
+      <Point X="0.5163761" Y="0.7641084" />
+      <Point X="0.5218464" Y="0.7638487" />
+      <Point X="0.5273229" Y="0.7635109" />
+      <Point X="0.5328026" Y="0.7631018" />
+      <Point X="0.5382886" Y="0.7626144" />
+      <Point X="0.5437777" Y="0.7620524" />
+      <Point X="0.5492731" Y="0.7614156" />
+      <Point X="0.5547749" Y="0.7607077" />
+      <Point X="0.5602798" Y="0.7599214" />
+      <Point X="0.565791" Y="0.7590606" />
+      <Point X="0.5713085" Y="0.758125" />
+      <Point X="0.5768291" Y="0.7571148" />
+      <Point X="0.582356" Y="0.7560297" />
+      <Point X="0.5878893" Y="0.7548701" />
+      <Point X="0.5933375" Y="0.7536712" />
+      <Point X="0.5986156" Y="0.7524723" />
+      <Point X="0.6037205" Y="0.7512736" />
+      <Point X="0.6086554" Y="0.7500711" />
+      <Point X="0.6134171" Y="0.7488688" />
+      <Point X="0.6180087" Y="0.7476664" />
+      <Point X="0.622427" Y="0.7464604" />
+      <Point X="0.6266723" Y="0.745251" />
+      <Point X="0.6307474" Y="0.744045" />
+      <Point X="0.6346525" Y="0.7428355" />
+      <Point X="0.6383812" Y="0.7416224" />
+      <Point X="0.641943" Y="0.7404094" />
+      <Point X="0.6453316" Y="0.7391964" />
+      <Point X="0.648547" Y="0.7379798" />
+      <Point X="0.6515923" Y="0.7367631" />
+      <Point X="0.6544644" Y="0.7355465" />
+      <Point X="0.5722816" Y="0.6420736" />
+      <Point X="0.5707542" Y="0.6430091" />
+      <Point X="0.5691575" Y="0.6439198" />
+      <Point X="0.5674821" Y="0.6448127" />
+      <Point X="0.5657374" Y="0.6456842" />
+      <Point X="0.5639172" Y="0.6465345" />
+      <Point X="0.5620245" Y="0.6473634" />
+      <Point X="0.5600563" Y="0.6481709" />
+      <Point X="0.5580155" Y="0.6489571" />
+      <Point X="0.5559023" Y="0.6497219" />
+      <Point X="0.5537168" Y="0.6504689" />
+      <Point X="0.5514556" Y="0.651191" />
+      <Point X="0.549122" Y="0.6518953" />
+      <Point X="0.5467128" Y="0.6525748" />
+      <Point X="0.5442312" Y="0.6532364" />
+      <Point X="0.5416772" Y="0.6538768" />
+      <Point X="0.5390507" Y="0.6544958" />
+      <Point X="0.5363991" Y="0.6550864" />
+      <Point X="0.5337789" Y="0.6556377" />
+      <Point X="0.5311839" Y="0.6561499" />
+      <Point X="0.5286173" Y="0.6566266" />
+      <Point X="0.526079" Y="0.6570606" />
+      <Point X="0.523569" Y="0.6574627" />
+      <Point X="0.5210874" Y="0.657822" />
+      <Point X="0.518631" Y="0.6581457" />
+      <Point X="0.516206" Y="0.6584302" />
+      <Point X="0.5138063" Y="0.6586792" />
+      <Point X="0.511435" Y="0.6588856" />
+      <Point X="0.5090919" Y="0.6590599" />
+      <Point X="0.5067772" Y="0.6591915" />
+      <Point X="0.5044909" Y="0.6592876" />
+      <Point X="0.5022298" Y="0.6593444" />
+      <Point X="0.5" Y="0.6593623" />
+      <Point X="0.49521" Y="0.6593018" />
+      <Point X="0.4904641" Y="0.6591275" />
+      <Point X="0.4857623" Y="0.6588322" />
+      <Point X="0.4811108" Y="0.658416" />
+      <Point X="0.4765035" Y="0.657886" />
+      <Point X="0.4719402" Y="0.657235" />
+      <Point X="0.4674242" Y="0.6564701" />
+      <Point X="0.4629554" Y="0.6555843" />
+      <Point X="0.4585307" Y="0.6545776" />
+      <Point X="0.4541501" Y="0.653457" />
+      <Point X="0.4498199" Y="0.6522155" />
+      <Point X="0.4455338" Y="0.6508602" />
+      <Point X="0.4412917" Y="0.6493838" />
+      <Point X="0.4370969" Y="0.6477867" />
+      <Point X="0.4329462" Y="0.6460755" />
+      <Point X="0.4288459" Y="0.6442436" />
+      <Point X="0.4247865" Y="0.6422942" />
+      <Point X="0.4207744" Y="0.6402273" />
+      <Point X="0.4168094" Y="0.638043" />
+      <Point X="0.4128918" Y="0.6357415" />
+      <Point X="0.4090151" Y="0.633319" />
+      <Point X="0.4051887" Y="0.630779" />
+      <Point X="0.4014065" Y="0.6281216" />
+      <Point X="0.3976715" Y="0.6253469" />
+      <Point X="0.3939805" Y="0.6224511" />
+      <Point X="0.3903369" Y="0.6194416" />
+      <Point X="0.3867373" Y="0.6163113" />
+      <Point X="0.3831849" Y="0.6130633" />
+      <Point X="0.3796767" Y="0.6096945" />
+      <Point X="0.3762156" Y="0.6062118" />
+      <Point X="0.3728018" Y="0.6026083" />
+      <Point X="0.3694322" Y="0.5988873" />
+      <Point X="0.366138" Y="0.5950809" />
+      <Point X="0.3629479" Y="0.5912248" />
+      <Point X="0.3598647" Y="0.5873152" />
+      <Point X="0.3568856" Y="0.5833559" />
+      <Point X="0.3540103" Y="0.5793433" />
+      <Point X="0.3512389" Y="0.5752771" />
+      <Point X="0.3485715" Y="0.5711614" />
+      <Point X="0.3460112" Y="0.566992" />
+      <Point X="0.3435516" Y="0.5627731" />
+      <Point X="0.3411991" Y="0.5585006" />
+      <Point X="0.3389505" Y="0.554175" />
+      <Point X="0.3368091" Y="0.5497994" />
+      <Point X="0.3347684" Y="0.545374" />
+      <Point X="0.3328347" Y="0.5408918" />
+      <Point X="0.331005" Y="0.5363632" />
+      <Point X="0.3292792" Y="0.5317779" />
+      <Point X="0.3276573" Y="0.5271426" />
+      <Point X="0.3261426" Y="0.5224576" />
+      <Point X="0.3247317" Y="0.5177192" />
+      <Point X="0.3234248" Y="0.5129275" />
+      <Point X="0.3222217" Y="0.5080859" />
+      <Point X="0.3211226" Y="0.503191" />
+      <Point X="0.3201306" Y="0.4982463" />
+      <Point X="0.3192426" Y="0.4932482" />
+      <Point X="0.3184584" Y="0.4881967" />
+      <Point X="0.3177781" Y="0.4830955" />
+      <Point X="0.3172019" Y="0.4779445" />
+      <Point X="0.3167326" Y="0.4727401" />
+      <Point X="0.3163641" Y="0.4674823" />
+      <Point X="0.3161028" Y="0.4621712" />
+      <Point X="0.3159485" Y="0.4568102" />
+      <Point X="0.3158949" Y="0.4513995" />
+      <Point X="0.3159107" Y="0.4490161" />
+      <Point X="0.315961" Y="0.4465935" />
+      <Point X="0.3160461" Y="0.4441354" />
+      <Point X="0.3161657" Y="0.4416417" />
+      <Point X="0.3163169" Y="0.439116" />
+      <Point X="0.3164996" Y="0.4365511" />
+      <Point X="0.31672" Y="0.4339471" />
+      <Point X="0.316972" Y="0.4313112" />
+      <Point X="0.3172585" Y="0.4286396" />
+      <Point X="0.3175766" Y="0.4259324" />
+      <Point X="0.3179325" Y="0.4231861" />
+      <Point X="0.3183198" Y="0.4204043" />
+      <Point X="0.3187387" Y="0.4175904" />
+      <Point X="0.3191922" Y="0.4147374" />
+      <Point X="0.3196803" Y="0.4118488" />
+      <Point X="0.3202031" Y="0.4089247" />
+      <Point X="0.3207511" Y="0.4060148" />
+      <Point X="0.3213179" Y="0.4031689" />
+      <Point X="0.3219036" Y="0.4003799" />
+      <Point X="0.3225052" Y="0.397655" />
+      <Point X="0.3231287" Y="0.3949941" />
+      <Point X="0.323768" Y="0.3923901" />
+      <Point X="0.3244294" Y="0.3898502" />
+      <Point X="0.3251065" Y="0.3873707" />
+      <Point X="0.3258024" Y="0.3849553" />
+      <Point X="0.3265173" Y="0.3825967" />
+      <Point X="0.3272511" Y="0.3803023" />
+      <Point X="0.3280038" Y="0.3780718" />
+      <Point X="0.3287753" Y="0.3758983" />
+      <Point X="0.3295658" Y="0.3737887" />
+      <Point X="0.330372" Y="0.3717397" />
+      <Point X="0.3312002" Y="0.3697512" />
+      <Point X="0.2156984" Y="0.2399221" />
+      <Point X="0.6736497" Y="0.5166413" />
+    </Polygon>
+  </GraphicElements>
+  <PredefinedScripts />
+  <NamedScripts>
+    <NamedScript Name="S_HiPrio" DeadBand="0">
+      <ScriptExpression Expression="me.Temperature.Hi.Priority" />
+      <Script>
+        <ValueChange>HiHiPrio = false;
+</ValueChange>
+      </Script>
+    </NamedScript>
+  </NamedScripts>
+  <BackFillColor FillType="NoFill" />
+  <Metrics>
+    <GPI>5.0</GPI>
+    <Description>Sub-second call-up time on standard performance hardware</Description>
+    <Details>
+      <Item Description="Number of External References" Count="10" Score="9.7" />
+      <Item Description="Number of Edit Boxes" Count="2" Score="6.2" />
+      <Item Description="Number of Texts" Count="21" Score="4.9" />
+      <Item Description="Number of Custom Property References" Count="23" Score="1.7" />
+      <Item Description="Number of Line Patterns" Count="49" Score="1.2" />
+      <Item Description="Number of Element Style Animations" Count="8" Score="1.1" />
+      <Item Description="Number of Custom Properties" Count="13" Score="&lt;1" />
+      <Item Description="Number of Rounded Rectangles" Count="21" Score="&lt;1" />
+      <Item Description="Number of overridden Custom Properties" Count="5" Score="&lt;1" />
+      <Item Description="Number of Lines" Count="8" Score="&lt;1" />
+      <Item Description="Number of Groups" Count="3" Score="&lt;1" />
+      <Item Description="Number of Polygons" Count="5" Score="&lt;1" />
+      <Item Description="Number of Embedded Symbols" Count="2" Score="&lt;1" />
+      <Item Description="Number of Statuses" Count="2" Score="&lt;1" />
+      <Item Description="Number of Container Scripts" Count="1" Score="&lt;1" />
+      <Item Description="Number of Rectangles" Count="12" Score="&lt;1" />
+      <Item Description="Number of User Input Animations" Count="2" Score="&lt;1" />
+      <Item Description="Number of Value Display Animations" Count="3" Score="&lt;1" />
+      <Item Description="Number of Push Button Animations" Count="8" Score="&lt;1" />
+      <Item Description="Number of Solid Fills" Count="138" Score="&lt;1" />
+      <Item Description="Number of Visibility Animations" Count="5" Score="&lt;1" />
+      <Item Description="Number of Location Animations" Count="2" Score="&lt;1" />
+      <Item Description="Number of Polylines" Count="1" Score="&lt;1" />
+      <Item Description="Number of Slider Animations" Count="2" Score="&lt;1" />
+      <Item Description="Number of Size Animations" Count="2" Score="&lt;1" />
+      <Item Description="Number of Line Ends" Count="2" Score="&lt;1" />
+      <Item Description="Number of Ellipses" Count="2" Score="&lt;1" />
+      <Item Description="Number of Disable Animations" Count="2" Score="&lt;1" />
+      <Item Description="Number of Transparencies" Count="4" Score="&lt;1" />
+    </Details>
+  </Metrics>
+</aa:Symbol>
