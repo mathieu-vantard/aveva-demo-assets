@@ -1,2 +1,3 @@
-# aveva-demo-assets
-Demo AVEVA System Platform, scripts et graphiques
+# AVEVA Demo Framework
+
+Repository structure for demo assets, scripts, templates, and scenarios.
