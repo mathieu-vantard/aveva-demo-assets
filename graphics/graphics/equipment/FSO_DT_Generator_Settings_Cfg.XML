@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<aa:Symbol GraphicVersion="415" Name="" Left="0" Top="0" Width="500" Height="500" LocalLeft="0" LocalTop="0" LocalWidth="500" LocalHeight="500" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="0" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="False" HasLineStyleData="False" HasTextStyleData="False" ElementStyleID="0" HasCustomProperties="True" LastUsedId="216" Description="" Smoothing="True" AnchorOffsetRatioX="0" AnchorOffsetRatioY="0" ImageFillStyle="Normal" Alignment="Centers" RefreshRate="0" FaceplateMode="False" SizeMode="Auto" ContentType="" ShowConfiguredReferences="False" xmlns:aa="http://www.wonderware.com/ArchestrA">
+<aa:Symbol GraphicVersion="415" Name="" Left="0" Top="0" Width="500" Height="500" LocalLeft="0" LocalTop="0" LocalWidth="500" LocalHeight="500" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="0" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="False" HasLineStyleData="False" HasTextStyleData="False" ElementStyleID="0" HasCustomProperties="True" LastUsedId="217" Description="" Smoothing="True" AnchorOffsetRatioX="0" AnchorOffsetRatioY="0" ImageFillStyle="Normal" Alignment="Centers" RefreshRate="0" FaceplateMode="False" SizeMode="Auto" ContentType="" ShowConfiguredReferences="False" xmlns:aa="http://www.wonderware.com/ArchestrA">
   <CustomProperties>
     <CustomProperty Name="HiHiPrio" DataType="Boolean" Locked="False" Visibility="Public" Overridden="False">
       <Expression Expression="False" />
@@ -3035,6 +3035,36 @@
         </LineStyle>
       </LineStyleData>
     </Ellipse>
+    <Ellipse Name="Ellipse4" Left="170" Top="610" Width="40" Height="40" LocalLeft="170" LocalTop="610" LocalWidth="40" LocalHeight="40" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="217" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="True" HasLineStyleData="True" HasTextStyleData="False" ElementStyleID="0" HasCustomProperties="False">
+      <FillStyleData VerticalPercentFill="100" HorizontalPercentFill="100">
+        <FillStyle FillType="Solid">
+          <SolidFill>
+            <FillColor R="255" G="255" B="255" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </FillStyle>
+        <UnfilledStyle FillType="Solid">
+          <SolidFill>
+            <FillColor R="0" G="0" B="0" A="255" />
+            <Transparency>0</Transparency>
+          </SolidFill>
+        </UnfilledStyle>
+        <FillBehavior>Both</FillBehavior>
+        <HorizontalDirection>Right</HorizontalDirection>
+        <VerticalDirection>Up</VerticalDirection>
+        <FillOrientation>RelativeToGraphic</FillOrientation>
+      </FillStyleData>
+      <LineStyleData>
+        <LineStyle Weight="1" LinePattern="Solid">
+          <FillStyle FillType="Solid">
+            <SolidFill>
+              <FillColor R="0" G="0" B="0" A="255" />
+              <Transparency>0</Transparency>
+            </SolidFill>
+          </FillStyle>
+        </LineStyle>
+      </LineStyleData>
+    </Ellipse>
   </GraphicElements>
   <PredefinedScripts />
   <NamedScripts>
@@ -3055,7 +3085,7 @@
       <Item Description="Number of Edit Boxes" Count="2" Score="6.2" />
       <Item Description="Number of Texts" Count="21" Score="4.9" />
       <Item Description="Number of Custom Property References" Count="23" Score="1.7" />
-      <Item Description="Number of Line Patterns" Count="50" Score="1.2" />
+      <Item Description="Number of Line Patterns" Count="51" Score="1.2" />
       <Item Description="Number of Element Style Animations" Count="8" Score="1.1" />
       <Item Description="Number of Custom Properties" Count="13" Score="&lt;1" />
       <Item Description="Number of Rounded Rectangles" Count="21" Score="&lt;1" />
@@ -3070,14 +3100,14 @@
       <Item Description="Number of User Input Animations" Count="2" Score="&lt;1" />
       <Item Description="Number of Value Display Animations" Count="3" Score="&lt;1" />
       <Item Description="Number of Push Button Animations" Count="8" Score="&lt;1" />
-      <Item Description="Number of Solid Fills" Count="141" Score="&lt;1" />
+      <Item Description="Number of Solid Fills" Count="144" Score="&lt;1" />
       <Item Description="Number of Visibility Animations" Count="5" Score="&lt;1" />
       <Item Description="Number of Location Animations" Count="2" Score="&lt;1" />
       <Item Description="Number of Polylines" Count="1" Score="&lt;1" />
       <Item Description="Number of Slider Animations" Count="2" Score="&lt;1" />
       <Item Description="Number of Size Animations" Count="2" Score="&lt;1" />
+      <Item Description="Number of Ellipses" Count="4" Score="&lt;1" />
       <Item Description="Number of Line Ends" Count="2" Score="&lt;1" />
-      <Item Description="Number of Ellipses" Count="3" Score="&lt;1" />
       <Item Description="Number of Disable Animations" Count="2" Score="&lt;1" />
       <Item Description="Number of Transparencies" Count="4" Score="&lt;1" />
     </Details>
