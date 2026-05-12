@@ -3005,66 +3005,6 @@
       <Point X="0.2156984" Y="0.2399221" />
       <Point X="0.6736497" Y="0.5166413" />
     </Polygon>
-    <Ellipse Name="Ellipse3" Left="110" Top="610" Width="40" Height="40" LocalLeft="110" LocalTop="610" LocalWidth="40" LocalHeight="40" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="216" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="True" HasLineStyleData="True" HasTextStyleData="False" ElementStyleID="0" HasCustomProperties="False">
-      <FillStyleData VerticalPercentFill="100" HorizontalPercentFill="100">
-        <FillStyle FillType="Solid">
-          <SolidFill>
-            <FillColor R="255" G="255" B="255" A="255" />
-            <Transparency>0</Transparency>
-          </SolidFill>
-        </FillStyle>
-        <UnfilledStyle FillType="Solid">
-          <SolidFill>
-            <FillColor R="0" G="0" B="0" A="255" />
-            <Transparency>0</Transparency>
-          </SolidFill>
-        </UnfilledStyle>
-        <FillBehavior>Both</FillBehavior>
-        <HorizontalDirection>Right</HorizontalDirection>
-        <VerticalDirection>Up</VerticalDirection>
-        <FillOrientation>RelativeToGraphic</FillOrientation>
-      </FillStyleData>
-      <LineStyleData>
-        <LineStyle Weight="1" LinePattern="Solid">
-          <FillStyle FillType="Solid">
-            <SolidFill>
-              <FillColor R="0" G="0" B="0" A="255" />
-              <Transparency>0</Transparency>
-            </SolidFill>
-          </FillStyle>
-        </LineStyle>
-      </LineStyleData>
-    </Ellipse>
-    <Ellipse Name="Ellipse4" Left="170" Top="610" Width="40" Height="40" LocalLeft="170" LocalTop="610" LocalWidth="40" LocalHeight="40" HasTransform="False" Enabled="True" Locked="False" TabStop="True" TabOrder="0" Visible="True" ElementID="217" Square="False" Transparency="0" Dock="None" AutoSize="False" AutoSizeMode="GrowOnly" Anchor="None" OriginX="0" OriginY="0" HasFillStyleData="True" HasLineStyleData="True" HasTextStyleData="False" ElementStyleID="0" HasCustomProperties="False">
-      <FillStyleData VerticalPercentFill="100" HorizontalPercentFill="100">
-        <FillStyle FillType="Solid">
-          <SolidFill>
-            <FillColor R="255" G="255" B="255" A="255" />
-            <Transparency>0</Transparency>
-          </SolidFill>
-        </FillStyle>
-        <UnfilledStyle FillType="Solid">
-          <SolidFill>
-            <FillColor R="0" G="0" B="0" A="255" />
-            <Transparency>0</Transparency>
-          </SolidFill>
-        </UnfilledStyle>
-        <FillBehavior>Both</FillBehavior>
-        <HorizontalDirection>Right</HorizontalDirection>
-        <VerticalDirection>Up</VerticalDirection>
-        <FillOrientation>RelativeToGraphic</FillOrientation>
-      </FillStyleData>
-      <LineStyleData>
-        <LineStyle Weight="1" LinePattern="Solid">
-          <FillStyle FillType="Solid">
-            <SolidFill>
-              <FillColor R="0" G="0" B="0" A="255" />
-              <Transparency>0</Transparency>
-            </SolidFill>
-          </FillStyle>
-        </LineStyle>
-      </LineStyleData>
-    </Ellipse>
   </GraphicElements>
   <PredefinedScripts />
   <NamedScripts>
@@ -3085,7 +3025,7 @@
       <Item Description="Number of Edit Boxes" Count="2" Score="6.2" />
       <Item Description="Number of Texts" Count="21" Score="4.9" />
       <Item Description="Number of Custom Property References" Count="23" Score="1.7" />
-      <Item Description="Number of Line Patterns" Count="51" Score="1.2" />
+      <Item Description="Number of Line Patterns" Count="49" Score="1.2" />
       <Item Description="Number of Element Style Animations" Count="8" Score="1.1" />
       <Item Description="Number of Custom Properties" Count="13" Score="&lt;1" />
       <Item Description="Number of Rounded Rectangles" Count="21" Score="&lt;1" />
@@ -3100,16 +3040,15 @@
       <Item Description="Number of User Input Animations" Count="2" Score="&lt;1" />
       <Item Description="Number of Value Display Animations" Count="3" Score="&lt;1" />
       <Item Description="Number of Push Button Animations" Count="8" Score="&lt;1" />
-      <Item Description="Number of Solid Fills" Count="144" Score="&lt;1" />
+      <Item Description="Number of Solid Fills" Count="138" Score="&lt;1" />
       <Item Description="Number of Visibility Animations" Count="5" Score="&lt;1" />
       <Item Description="Number of Location Animations" Count="2" Score="&lt;1" />
       <Item Description="Number of Polylines" Count="1" Score="&lt;1" />
       <Item Description="Number of Slider Animations" Count="2" Score="&lt;1" />
       <Item Description="Number of Size Animations" Count="2" Score="&lt;1" />
-      <Item Description="Number of Ellipses" Count="4" Score="&lt;1" />
       <Item Description="Number of Line Ends" Count="2" Score="&lt;1" />
+      <Item Description="Number of Ellipses" Count="2" Score="&lt;1" />
       <Item Description="Number of Disable Animations" Count="2" Score="&lt;1" />
-      <Item Description="Number of Transparencies" Count="4" Score="&lt;1" />
     </Details>
   </Metrics>
 </aa:Symbol>
